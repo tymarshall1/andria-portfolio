@@ -25,7 +25,13 @@
     height: 50px;
   }
 
-  .wave .shape-fill {
+  .wave .wave-about {
     fill: #e0e1d1;
+  }
+  .wave .wave-why {
+    fill: #ffffff;
+  }
+  .wave .wave-customers {
+    fill: #cdcebe;
   }
 }
