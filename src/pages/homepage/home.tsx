@@ -1,10 +1,25 @@
 import reviewStars from "./assets/reviewStars.svg";
-import reviewCirlce from "./assets/reviewCircles.svg";
+import reviewCircle from "./assets/reviewCircles.svg";
 import { useState } from "react";
-
+import backgroundImgMobile from "./assets/background.png";
+import Picture from "../../components/picture";
+import brand from "./assets/brand.png";
+import photography from "./assets/photography.png";
+import advertisements from "./assets/advertisements.png";
+import webDesign from "./assets/webDesign.png";
 function Banner() {
-  // return <img src={""} alt="" />;
-  return <div className="h-40"></div>;
+  return (
+    <div className="bg-[#6B705C] relative">
+      <Picture
+        mobileImg={backgroundImgMobile}
+        tabletImg={""}
+        desktopImg={""}
+        altText={"background hero"}
+        css={""}
+      />
+      <div className="absolute bg-[#6B705C6E] inset-0"></div>
+    </div>
+  );
 }
 
 function AboutMe() {
@@ -95,23 +110,61 @@ function Services() {
   return (
     <section className="relative grid grid-cols-2 gap-4 p-4 text-center bg-white justify-items-center">
       <h1 className="col-span-2 mb-2 text-base font-koulen">My Services</h1>
-      <div className="h-40 w-40 bg-[#6B705CD6] flex items-center justify-center">
-        <p className="text-base font-normal text-white font-koulen">BRANDING</p>
+      <div className="relative">
+        <Picture
+          mobileImg={brand}
+          tabletImg={""}
+          desktopImg={""}
+          altText={"branding"}
+          css={""}
+        />
+        <div className="absolute bg-[#6B705CD6] inset-0 z-0 flex items-center justify-center">
+          <p className="z-10 text-base font-normal text-white font-koulen">
+            BRANDING
+          </p>
+        </div>
       </div>
-      <div className="h-40 w-40 bg-[#6B705CD6] flex items-center justify-center">
-        <p className="text-base font-normal text-white font-koulen">
-          PHOTO MANIPULATION
-        </p>
+      <div className="relative">
+        <Picture
+          mobileImg={photography}
+          tabletImg={""}
+          desktopImg={""}
+          altText={"photo manipulation"}
+          css={""}
+        />
+        <div className="absolute bg-[#6B705CD6] inset-0 z-0 flex items-center justify-center">
+          <p className="z-10 text-base font-normal text-white font-koulen">
+            PHOTO MANIPULATION
+          </p>
+        </div>
       </div>
-      <div className="h-40 w-40 bg-[#6B705CD6] flex items-center justify-center">
-        <p className="text-base font-normal text-white font-koulen">
-          WEB DESIGN
-        </p>
+      <div className="relative">
+        <Picture
+          mobileImg={webDesign}
+          tabletImg={""}
+          desktopImg={""}
+          altText={"web design"}
+          css={""}
+        />
+        <div className="absolute bg-[#6B705CD6] inset-0 z-0 flex items-center justify-center">
+          <p className="z-10 text-base font-normal text-white font-koulen">
+            WEB DESIGN
+          </p>
+        </div>
       </div>
-      <div className="mb-8 h-40 w-40 bg-[#6B705CD6] flex items-center justify-center">
-        <p className="text-base font-normal text-white font-koulen">
-          ADVERTISEMENTS
-        </p>
+      <div className="relative">
+        <Picture
+          mobileImg={advertisements}
+          tabletImg={""}
+          desktopImg={""}
+          altText={"advertisements"}
+          css={""}
+        />
+        <div className="absolute bg-[#6B705CD6] inset-0 z-0 flex items-center justify-center">
+          <p className="z-10 text-base font-normal text-white font-koulen">
+            ADVERTISEMENTS
+          </p>
+        </div>
       </div>
       <div className="wave">
         <svg
@@ -126,6 +179,7 @@ function Services() {
           ></path>
         </svg>
       </div>
+      <div className="mb-8"></div>
     </section>
   );
 }
@@ -137,9 +191,9 @@ type CustomerReviewCardProps = {
 
 function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
-    <div className="bg-[#6B705C] text-center text-xs font-manjari rounded px-2 text-white font-normal min-h-48 flex items-center flex-col justify-center">
-      <img src={reviewStars} alt="" className="mx-auto mb-2" />
-      <p className="mb-2">{props.review}</p>
+    <div className="bg-[#6B705C] text-center text-xs font-manjari  rounded px-2  text-white font-normal min-h-48 flex items-center flex-col justify-between py-3">
+      <img src={reviewStars} alt="" className="" />
+      <p className="">{props.review}</p>
       <p>{props.reviewAuthor}</p>
     </div>
   );
@@ -185,15 +239,30 @@ function CustomerReviews() {
   }
 
   return (
-    <section className="p-4 bg-secondary">
+    <section className="px-4 py-8 bg-secondary">
       <h1 className="text-[#6B705C] text-center mb-4 font-koulen text-base">
         WHAT MY CUSTOMERS SAY
       </h1>
       {showCard()}
       <div className="flex items-center justify-center gap-2 mt-4">
-        <img src={reviewCirlce} alt="" onClick={() => setSwapReview(0)} />
-        <img src={reviewCirlce} alt="" onClick={() => setSwapReview(1)} />
-        <img src={reviewCirlce} alt="" onClick={() => setSwapReview(2)} />
+        <img
+          src={reviewCircle}
+          alt=""
+          onClick={() => setSwapReview(0)}
+          className="w-2 h-2"
+        />
+        <img
+          src={reviewCircle}
+          alt=""
+          onClick={() => setSwapReview(1)}
+          className="w-2 h-2"
+        />
+        <img
+          src={reviewCircle}
+          alt=""
+          onClick={() => setSwapReview(2)}
+          className="w-2 h-2"
+        />
       </div>
     </section>
   );
@@ -201,13 +270,13 @@ function CustomerReviews() {
 
 function Home() {
   return (
-    <div>
+    <>
       <Banner />
       <AboutMe />
       <WhyWorkWithMe />
       <Services />
       <CustomerReviews />
-    </div>
+    </>
   );
 }
 
