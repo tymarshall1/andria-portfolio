@@ -7,9 +7,10 @@ export default {
         primary: "#FCF3EC",
         secondary: "#CDCEBE",
         tertiaryOne: "#E0E1D1",
+        tertiaryTwo: "#6B705C",
       },
       fontFamily: {
-        alexBrush: ["Alex Brush cursive", "sans-serif"],
+        alexBrush: ["Alex Brush", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],
         manjari: ["Manjari", "sans-serif"],
       },

@@ -9,7 +9,7 @@ import advertisements from "./assets/advertisements.png";
 import webDesign from "./assets/webDesign.png";
 function Banner() {
   return (
-    <div className="bg-[#6B705C] relative">
+    <div className="relative bg-tertiaryTwo">
       <Picture
         mobileImg={backgroundImgMobile}
         tabletImg={""}
@@ -24,7 +24,7 @@ function Banner() {
 
 function AboutMe() {
   return (
-    <section className="text-center p-8 bg-[#6B705C] text-white relative">
+    <section className="relative p-8 text-center text-white bg-tertiaryTwo">
       <h1 className="mb-4 text-base font-normal font-koulen">A BIT ABOUT ME</h1>
       <p className="mb-6 text-sm font-normal font-manjari">
         Hi! I'm Andria, a creative Graphic Designer with a talent for developing
@@ -55,7 +55,7 @@ function AboutMe() {
 function WhyWorkWithMe() {
   return (
     <section className="relative p-4 bg-tertiaryOne">
-      <h1 className="mb-4 text-base font-bold text-center font-koulen text-[#6B705C]">
+      <h1 className="mb-4 text-base font-bold text-center font-koulen text-tertiaryTwo">
         WHY YOU SHOULD WORK WITH ME
       </h1>
       <div className="grid grid-flow-col gap-4 mb-6">
@@ -191,7 +191,7 @@ type CustomerReviewCardProps = {
 
 function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
-    <div className="bg-[#6B705C] text-center text-xs font-manjari  rounded px-2  text-white font-normal min-h-48 flex items-center flex-col justify-between py-3">
+    <div className="flex flex-col items-center justify-between px-2 py-3 text-xs font-normal text-center text-white rounded bg-tertiaryTwo font-manjari min-h-48">
       <img src={reviewStars} alt="" className="" />
       <p className="">{props.review}</p>
       <p>{props.reviewAuthor}</p>
@@ -240,7 +240,7 @@ function CustomerReviews() {
 
   return (
     <section className="px-4 py-8 bg-secondary">
-      <h1 className="text-[#6B705C] text-center mb-4 font-koulen text-base">
+      <h1 className="mb-4 text-base text-center text-tertiaryTwo font-koulen">
         WHAT MY CUSTOMERS SAY
       </h1>
       {showCard()}
