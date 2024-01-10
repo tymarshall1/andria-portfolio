@@ -25,7 +25,10 @@ function HamburgerNav() {
           alt="close nav button"
           className="self-start w-10 h-10 mb-4"
         />
-        <div className="flex flex-col items-center h-full gap-4 text-center">
+        <div
+          className="flex flex-col items-center h-full gap-4 text-center"
+          onClick={() => setIsOpen(false)}
+        >
           {/*Home Link*/}
           <div className="">
             <Link

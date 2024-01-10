@@ -15,7 +15,7 @@ import advertisements from "./assets/advertisements.png";
 function Portfolio() {
   return (
     <div className="bg-primary">
-      <section className="p-4">
+      <section className="p-4 mb-4">
         <h1 className="mb-4 text-4xl font-normal text-center text-tertiaryTwo font-alexBrush">
           Branding Projects
         </h1>
@@ -44,7 +44,7 @@ function Portfolio() {
         </div>
       </section>
 
-      <section className="p-4">
+      <section className="p-4 mb-4">
         <h1 className="mb-4 text-4xl font-normal text-center text-tertiaryTwo font-alexBrush">
           Photography Projects
         </h1>
@@ -88,7 +88,7 @@ function Portfolio() {
           />
         </div>
       </section>
-      <section className="p-4">
+      <section className="p-4 mb-4">
         <h1 className="mb-4 text-4xl font-normal text-center text-tertiaryTwo font-alexBrush ">
           Bestlogic Internship
         </h1>
