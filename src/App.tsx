@@ -2,7 +2,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./pages/homepage/home";
-import Portfolio from "./pages/portfolio";
+import Portfolio from "./pages/portfolio/portfolio";
 function App() {
   return (
     <main className="grid min-h-screen">
