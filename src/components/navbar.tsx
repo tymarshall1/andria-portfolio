@@ -15,7 +15,7 @@ function HamburgerNav() {
       />
       <nav
         id="hamburgerNav"
-        className={`fixed top-0 right-0  w-3/4 bg-white h-full z-40 ease-in-out duration-300  ${
+        className={`fixed top-0 right-0  w-3/4 bg-white h-full z-40 ease-in-out duration-300 overflow-scroll ${
           isOpen ? " translate-x-0 transition" : " translate-x-full transition"
         }`}
       >

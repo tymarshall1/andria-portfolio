@@ -24,21 +24,21 @@ function Portfolio() {
             mobileImg={keyStone}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"keystone project"}
             css={""}
           />
           <Picture
             mobileImg={rachaelsBakery}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Rachaels bakery project"}
             css={""}
           />
           <Picture
             mobileImg={rocknRolls}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"rock n rolls project"}
             css={""}
           />
         </div>
@@ -53,21 +53,21 @@ function Portfolio() {
             mobileImg={jrProm}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Jr. prom photography"}
             css={""}
           />
           <Picture
             mobileImg={srProm}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Sr. prom photography"}
             css={""}
           />
           <Picture
             mobileImg={lumsPond}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Lums Pond photography"}
             css={""}
           />
         </div>
@@ -76,14 +76,14 @@ function Portfolio() {
             mobileImg={beach}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Beach photography"}
             css={""}
           />
           <Picture
             mobileImg={photoManipulation}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"Photo Manipulation"}
             css={""}
           />
         </div>
@@ -97,28 +97,28 @@ function Portfolio() {
             mobileImg={bookCover}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"book cover from internship"}
             css={""}
           />
           <Picture
             mobileImg={logo}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"logos from internship"}
             css={""}
-          />{" "}
+          />
           <Picture
             mobileImg={socialMedia}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"social media from internship"}
             css={""}
           />
           <Picture
             mobileImg={advertisements}
             tabletImg={""}
             desktopImg={""}
-            altText={""}
+            altText={"advertisements from internship"}
             css={""}
           />
         </div>

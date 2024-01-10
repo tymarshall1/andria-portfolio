@@ -7,6 +7,7 @@ import brand from "./assets/brand.png";
 import photography from "./assets/photography.png";
 import advertisements from "./assets/advertisements.png";
 import webDesign from "./assets/webDesign.png";
+import arrow from "./assets/arrow.svg";
 function Banner() {
   return (
     <div className="relative bg-tertiaryTwo">
@@ -191,8 +192,12 @@ type CustomerReviewCardProps = {
 
 function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
-    <div className="flex flex-col items-center justify-between px-2 py-3 text-xs font-normal text-center text-white rounded bg-tertiaryTwo font-manjari min-h-48">
-      <img src={reviewStars} alt="" className="" />
+    <div
+      id="reviewCard"
+      className={`flex flex-col items-center justify-between gap-4 px-2 py-3 text-xs font-normal text-center text-white rounded
+       bg-tertiaryTwo font-manjari min-h-60`}
+    >
+      <img src={reviewStars} alt="five stars" className="" />
       <p className="">{props.review}</p>
       <p>{props.reviewAuthor}</p>
     </div>
@@ -200,68 +205,99 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
 }
 
 function CustomerReviews() {
-  const [swapReview, setSwapReview] = useState(0);
-  function showCard() {
-    switch (swapReview) {
-      case 0:
-        return (
-          <CustomerReviewCard
-            review="As an Internship manager, I was impressed by her work ethic, marketing
-        designs, innovative book designs, logos, and managerial skills. She is a
-        hard-working young lady with a great sense of humor and commitment to
-        her duty. She was always ready to go the extra mile to provide
-        high-quality customer service."
-            reviewAuthor="-Aldin Beslagic"
-          />
-        );
-      case 1:
-        return (
-          <CustomerReviewCard
-            review="I reached out to Andria after seeing some of the different ads and book covers that she
-             completed on her Instagram page. I had no idea where to even start with trying to advertise my business. 
-             She created a TON of different logo designs, business cards, and more for me to choose from. 
-             I was also able to change specific things and she was great about any changes I wanted to make!! 
-             I look forward to using her for ALL my graphic design needs!"
-            reviewAuthor="-Rachael Berg"
-          />
-        );
-      case 2:
-        return (
-          <CustomerReviewCard
-            review="I am so glad that I went to Andria for help with my flyer/poster for my
-        up-incoming business. Andria made me my advertisement in a quick and speedy manor, 
-        while also making the product look amazing. She asked for feedback on how I felt on the poster, 
-        and when I gave her feedback, she fixed it immediately. Great customer service, great product, overall 10/10."
-            reviewAuthor="-Tyler Geiger"
-          />
-        );
+  const [swapReview, setSwapReview] = useState(1);
+
+  const reviews = [
+    <CustomerReviewCard
+      review="As an Internship manager, I was impressed by her work ethic, marketing
+              designs, innovative book designs, logos, and managerial skills. She is a
+              hard-working young lady with a great sense of humor and commitment to
+              her duty. She was always ready to go the extra mile to provide
+              high-quality customer service."
+      reviewAuthor="-Aldin Beslagic"
+    />,
+
+    <CustomerReviewCard
+      review="I reached out to Andria after seeing some of the different ads and book covers that she
+              completed on her Instagram page. I had no idea where to even start with trying to advertise my business. 
+              She created a TON of different logo designs, business cards, and more for me to choose from. 
+              I was also able to change specific things and she was great about any changes I wanted to make!! 
+              I look forward to using her for ALL my graphic design needs!"
+      reviewAuthor="-Rachael Berg"
+    />,
+
+    <CustomerReviewCard
+      review="I am so glad that I went to Andria for help with my flyer/poster for my
+              up-incoming business. Andria made me my advertisement in a quick and speedy manor, 
+              while also making the product look amazing. She asked for feedback on how I felt on the poster, 
+              and when I gave her feedback, she fixed it immediately. Great customer service, great product, overall 10/10."
+      reviewAuthor="-Tyler Geiger"
+    />,
+  ];
+
+  function handleCardChangeArrow(
+    e: React.MouseEvent<HTMLImageElement, MouseEvent>
+  ) {
+    if (e.currentTarget.alt === "left arrow") {
+      if (swapReview - 1 >= 0) {
+        setSwapReview(swapReview - 1);
+      }
+    } else {
+      if (swapReview + 1 <= 2) {
+        setSwapReview(swapReview + 1);
+      }
     }
   }
-
   return (
     <section className="px-4 py-8 bg-secondary">
       <h1 className="mb-4 text-base text-center text-tertiaryTwo font-koulen">
         WHAT MY CUSTOMERS SAY
       </h1>
-      {showCard()}
-      <div className="flex items-center justify-center gap-2 mt-4">
+      {reviews[swapReview]}
+      <div className="flex items-center justify-between gap-2 mt-4">
         <img
-          src={reviewCircle}
-          alt=""
-          onClick={() => setSwapReview(0)}
-          className="w-2 h-2"
+          src={arrow}
+          alt="left arrow"
+          className={`rotate-180 transition-opacity ${
+            swapReview - 1 === -1 ? "opacity-25" : "opacity-100"
+          }`}
+          onClick={(e) => {
+            handleCardChangeArrow(e);
+          }}
         />
+        <div id="slideCircles" className="flex gap-2">
+          <img
+            src={reviewCircle}
+            alt=""
+            onClick={() => setSwapReview(0)}
+            className={`w-2 h-2 transition-transform ${
+              swapReview === 0 ? "scale-150" : "scale-100"
+            }`}
+          />
+          <img
+            src={reviewCircle}
+            alt=""
+            onClick={() => setSwapReview(1)}
+            className={`w-2 h-2 transition-transform ${
+              swapReview === 1 ? "scale-150" : "scale-100"
+            }`}
+          />
+          <img
+            src={reviewCircle}
+            alt=""
+            onClick={() => setSwapReview(2)}
+            className={`w-2 h-2 transition-transform ${
+              swapReview === 2 ? "scale-150" : "scale-100"
+            }`}
+          />
+        </div>
         <img
-          src={reviewCircle}
-          alt=""
-          onClick={() => setSwapReview(1)}
-          className="w-2 h-2"
-        />
-        <img
-          src={reviewCircle}
-          alt=""
-          onClick={() => setSwapReview(2)}
-          className="w-2 h-2"
+          src={arrow}
+          alt="right arrow"
+          onClick={(e) => handleCardChangeArrow(e)}
+          className={`transition-opacity ${
+            swapReview + 1 === reviews.length ? "opacity-25" : "opacity-100"
+          }`}
         />
       </div>
     </section>
