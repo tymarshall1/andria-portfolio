@@ -134,7 +134,7 @@ function HamburgerNav() {
           {/*Contact Page*/}
           <div>
             <Link
-              to={""}
+              to={"/contact"}
               className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
             >
               Contact

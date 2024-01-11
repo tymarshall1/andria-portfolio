@@ -15,9 +15,10 @@ import BookCovers from "./pages/projectPages/bookCovers";
 import LogoDesigns from "./pages/projectPages/logoDesigns";
 import SocialMediaAdvertisements from "./pages/projectPages/socialMediaAdvertisements";
 import Advertisements from "./pages/projectPages/advertisements";
+import Contact from "./pages/contact/contact";
 function App() {
   return (
-    <main className="grid min-h-screen">
+    <main className="grid min-h-screen bg-primary">
       <HashRouter>
         <Navbar />
         <Routes>
@@ -38,6 +39,7 @@ function App() {
             element={<SocialMediaAdvertisements />}
           />
           <Route path="/advertisements" element={<Advertisements />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </HashRouter>

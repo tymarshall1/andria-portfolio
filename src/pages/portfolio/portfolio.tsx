@@ -14,7 +14,7 @@ import advertisements from "./assets/advertisements.png";
 
 function Portfolio() {
   return (
-    <div className="bg-primary">
+    <div className="">
       <section className="p-4 mb-4">
         <h1 className="mb-4 text-4xl font-normal text-center text-tertiaryTwo font-alexBrush">
           Branding Projects
