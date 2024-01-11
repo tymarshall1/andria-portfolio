@@ -1,4 +1,4 @@
-import Picture from "../../components/picture";
+import PictureButton from "../../components/pictureButton";
 import keyStone from "./assets/keystone-logo.png";
 import rachaelsBakery from "./assets/rachaels-bakery.png";
 import rocknRolls from "./assets/rock'n-rolls.png";
@@ -20,26 +20,29 @@ function Portfolio() {
           Branding Projects
         </h1>
         <div className="grid grid-cols-3 gap-4 justify-items-center">
-          <Picture
+          <PictureButton
             mobileImg={keyStone}
             tabletImg={""}
             desktopImg={""}
             altText={"keystone project"}
             css={""}
+            to={"/keystone-condominiums"}
           />
-          <Picture
+          <PictureButton
             mobileImg={rachaelsBakery}
             tabletImg={""}
             desktopImg={""}
             altText={"Rachaels bakery project"}
             css={""}
+            to={"/rachaels-bakery"}
           />
-          <Picture
+          <PictureButton
             mobileImg={rocknRolls}
             tabletImg={""}
             desktopImg={""}
             altText={"rock n rolls project"}
             css={""}
+            to={"/rock-n-rolls"}
           />
         </div>
       </section>
@@ -49,42 +52,47 @@ function Portfolio() {
           Photography Projects
         </h1>
         <div className="grid grid-cols-3 gap-4 mb-4 justify-items-center">
-          <Picture
+          <PictureButton
             mobileImg={jrProm}
             tabletImg={""}
             desktopImg={""}
+            to={"/jr-prom"}
             altText={"Jr. prom photography"}
             css={""}
           />
-          <Picture
+          <PictureButton
             mobileImg={srProm}
             tabletImg={""}
             desktopImg={""}
             altText={"Sr. prom photography"}
             css={""}
+            to={"/sr-prom"}
           />
-          <Picture
+          <PictureButton
             mobileImg={lumsPond}
             tabletImg={""}
             desktopImg={""}
             altText={"Lums Pond photography"}
             css={""}
+            to={"/lums-pond"}
           />
         </div>
         <div className="grid grid-cols-2 gap-4 px-16 justify-items-center">
-          <Picture
+          <PictureButton
             mobileImg={beach}
             tabletImg={""}
             desktopImg={""}
             altText={"Beach photography"}
             css={""}
+            to={"/rehobeth-beach"}
           />
-          <Picture
+          <PictureButton
             mobileImg={photoManipulation}
             tabletImg={""}
             desktopImg={""}
             altText={"Photo Manipulation"}
             css={""}
+            to={"/photo-manipulation"}
           />
         </div>
       </section>
@@ -93,33 +101,37 @@ function Portfolio() {
           Bestlogic Internship
         </h1>
         <div className="grid grid-cols-2 gap-4 px-16 justify-items-center">
-          <Picture
+          <PictureButton
             mobileImg={bookCover}
             tabletImg={""}
             desktopImg={""}
             altText={"book cover from internship"}
             css={""}
+            to={"/book-covers"}
           />
-          <Picture
+          <PictureButton
             mobileImg={logo}
             tabletImg={""}
             desktopImg={""}
             altText={"logos from internship"}
             css={""}
+            to={"/logo-designs"}
           />
-          <Picture
+          <PictureButton
             mobileImg={socialMedia}
             tabletImg={""}
             desktopImg={""}
             altText={"social media from internship"}
             css={""}
+            to={"/social-media-advertisements"}
           />
-          <Picture
+          <PictureButton
             mobileImg={advertisements}
             tabletImg={""}
             desktopImg={""}
             altText={"advertisements from internship"}
             css={""}
+            to={"/advertisements"}
           />
         </div>
       </section>

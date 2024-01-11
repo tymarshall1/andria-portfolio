@@ -48,49 +48,49 @@ function HamburgerNav() {
               Portfolio
             </Link>
             <Link
-              to={""}
+              to={"/keystone-condominiums"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Keystone Condominiums
             </Link>
             <Link
-              to={""}
+              to={"/rachaels-bakery"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Rachael’s Bakery
             </Link>
             <Link
-              to={""}
+              to={"/rock-n-rolls"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Rock’n Rolls Bakery
             </Link>
             <Link
-              to={""}
+              to={"/jr-prom"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Junior Prom
             </Link>
             <Link
-              to={""}
+              to={"/sr-prom"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
-              Junior Prom
+              Senior Prom
             </Link>
             <Link
-              to={""}
+              to={"/lums-pond"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
-              Veterans Cemetery
+              Lums Pond
             </Link>
             <Link
-              to={""}
+              to={"/rehobeth-beach"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Rehoboth Beach
             </Link>
             <Link
-              to={""}
+              to={"/photo-manipulation"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Photo Manipulation
@@ -106,25 +106,25 @@ function HamburgerNav() {
               Internship
             </Link>
             <Link
-              to={""}
+              to={"/book-covers"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Book Covers
             </Link>
             <Link
-              to={""}
+              to={"/logo-designs"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Logo Designs
             </Link>
             <Link
-              to={""}
+              to={"/social-media-advertisements"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Social Media Ads
             </Link>
             <Link
-              to={""}
+              to={"/advertisements"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Advertisements

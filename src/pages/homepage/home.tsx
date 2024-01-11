@@ -194,7 +194,7 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
     <div
       id="reviewCard"
-      className={`flex flex-col items-center justify-between gap-4 px-2 py-3 text-xs font-normal text-center text-white rounded
+      className={`flex flex-col items-center justify-between px-2 py-7 text-xs font-normal text-center text-white rounded
        bg-tertiaryTwo font-manjari min-h-60`}
     >
       <img src={reviewStars} alt="five stars" className="" />
@@ -258,7 +258,7 @@ function CustomerReviews() {
         <img
           src={arrow}
           alt="left arrow"
-          className={`rotate-180 transition-opacity ${
+          className={`rotate-180 transition-opacity h-11 w-11 ${
             swapReview - 1 === -1 ? "opacity-25" : "opacity-100"
           }`}
           onClick={(e) => {
@@ -295,7 +295,7 @@ function CustomerReviews() {
           src={arrow}
           alt="right arrow"
           onClick={(e) => handleCardChangeArrow(e)}
-          className={`transition-opacity ${
+          className={`transition-opacity h-11 w-11 ${
             swapReview + 1 === reviews.length ? "opacity-25" : "opacity-100"
           }`}
         />
