@@ -14,7 +14,7 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         {props.title}
       </h1>
       <div className="p-2 mb-4 border-[1px] border-gray-400">
-        <p className="mb-4 text-xs font-normal text-black font-manjari">
+        <p className="text-xs font-normal text-black font-manjari">
           {props.description}
         </p>
         {props.optionalExtraDescription}

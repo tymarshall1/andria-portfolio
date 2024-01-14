@@ -78,10 +78,10 @@ function HamburgerNav() {
               Senior Prom
             </Link>
             <Link
-              to={"/lums-pond"}
+              to={"/veterans-cemetery"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
-              Lums Pond
+              Veteran Cemetery
             </Link>
             <Link
               to={"/rehobeth-beach"}
@@ -94,16 +94,6 @@ function HamburgerNav() {
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
             >
               Photo Manipulation
-            </Link>
-          </div>
-
-          {/*Internship Pages*/}
-          <div>
-            <Link
-              to={""}
-              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
-            >
-              Internship
             </Link>
             <Link
               to={"/book-covers"}
