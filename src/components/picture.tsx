@@ -4,6 +4,7 @@ type PictureProps = {
   desktopImg: string;
   altText: string;
   css: string;
+  imgCss?: string;
 };
 
 function Picture(props: PictureProps) {
@@ -11,7 +12,11 @@ function Picture(props: PictureProps) {
     <picture className={props.css}>
       <source srcSet={props.tabletImg} media="(min-width: 1024px)" />
       <source srcSet={props.desktopImg} media="(min-width: 1536px)" />
-      <img src={props.mobileImg} alt={props.altText} className="max-w-full" />
+      <img
+        src={props.mobileImg}
+        alt={props.altText}
+        className={`max-w-full ${props.imgCss}`}
+      />
     </picture>
   );
 }

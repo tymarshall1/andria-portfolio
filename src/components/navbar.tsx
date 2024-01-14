@@ -95,6 +95,16 @@ function HamburgerNav() {
             >
               Photo Manipulation
             </Link>
+          </div>
+
+          {/*Internship pages*/}
+          <div>
+            <Link
+              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
+              to={"/portfolio"}
+            >
+              Internship
+            </Link>
             <Link
               to={"/book-covers"}
               className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
