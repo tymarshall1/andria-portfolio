@@ -13,7 +13,7 @@ function Contact() {
             Name
           </label>
           <input
-            className="w-full p-2 placeholder-white placeholder-opacity-25 border-b-2 border-white outline-none bg-inherit"
+            className="w-full p-2 placeholder-white placeholder-opacity-25 border-b-2 border-white rounded-none outline-none bg-inherit"
             type="text"
             name="name"
             placeholder="John Doe"
@@ -27,7 +27,7 @@ function Contact() {
             Email
           </label>
           <input
-            className="w-full p-2 placeholder-white placeholder-opacity-25 border-b-2 border-white outline-none bg-inherit"
+            className="w-full p-2 placeholder-white placeholder-opacity-25 border-b-2 border-white rounded-none outline-none bg-inherit"
             type="email"
             name="email"
             placeholder="John@example.com"

@@ -194,12 +194,12 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
     <div
       id="reviewCard"
-      className={`flex flex-col items-center justify-between px-2 py-7 text-xs font-normal text-center text-white rounded
+      className={`flex flex-col items-center justify-between px-2 py-5 text-xs font-normal text-center text-white rounded
        bg-tertiaryTwo font-manjari min-h-60`}
     >
-      <img src={reviewStars} alt="five stars" className="" />
+      <img src={reviewStars} alt="five stars" className="h-8" />
       <p className="">{props.review}</p>
-      <p>{props.reviewAuthor}</p>
+      <p className="">{props.reviewAuthor}</p>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./pages/homepage/home";
 import Portfolio from "./pages/portfolio/portfolio";
-import Keystone from "./pages/projectPages/keyStone";
+import Keystone from "./pages/projectPages/keystone/keyStone";
 import RachaelsBakery from "./pages/projectPages/rachaelsBakery";
 import RockNRolls from "./pages/projectPages/rockNRolls";
 import JrProm from "./pages/projectPages/jrProm";
