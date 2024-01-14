@@ -13,11 +13,13 @@ function BaseProjectPage(props: BaseProjectPageProps) {
       <h1 className="mb-4 text-2xl font-normal text-center text-black font-alexBrush">
         {props.title}
       </h1>
-      <p className="mb-4 text-xs font-normal text-center text-black font-manjari">
-        {props.description}
-      </p>
-      {props.optionalExtraDescription}
-      <div className="grid grid-cols-2 gap-4 mb-4">{props.children}</div>
+      <div className="p-2 mb-4 border-[1px] border-gray-400">
+        <p className="mb-4 text-xs font-normal text-black font-manjari">
+          {props.description}
+        </p>
+        {props.optionalExtraDescription}
+      </div>
+      <div className="grid grid-cols-2 gap-4">{props.children}</div>
     </div>
   );
 }

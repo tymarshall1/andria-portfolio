@@ -15,7 +15,7 @@ function Keystone() {
       description={`For this project I created a luxury condominium called Keystone that is projected to be in Tampa Florida. 
       The guide was to create a branding logo that can be displayed on multiple items.`}
       optionalExtraDescription={
-        <p className="mb-4 text-xs font-normal text-center text-black font-manjari">
+        <p className="text-xs font-normal text-black font-manjari">
           <span className="font-bold">Brand Strategy:</span> I first wanted to
           start off by choosing a really strong font that could stand alone as a
           brand mark and also apart of the whole name. I then had to identify
@@ -33,7 +33,7 @@ function Keystone() {
         mobileImg={keystoneLogoMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone logo"}
         css={""}
       ></Picture>
 
@@ -41,7 +41,7 @@ function Keystone() {
         mobileImg={condoBuildingMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone condo building"}
         css={""}
       ></Picture>
 
@@ -49,7 +49,7 @@ function Keystone() {
         mobileImg={coffeeMugMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone coffee mugs"}
         css={""}
       ></Picture>
 
@@ -57,7 +57,7 @@ function Keystone() {
         mobileImg={tshirtMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone tshirts"}
         css={""}
       ></Picture>
 
@@ -65,7 +65,7 @@ function Keystone() {
         mobileImg={businessCardsMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone business cards"}
         css={""}
       ></Picture>
 
@@ -73,7 +73,7 @@ function Keystone() {
         mobileImg={companyNameMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone company banner"}
         css={""}
       ></Picture>
 
@@ -81,7 +81,7 @@ function Keystone() {
         mobileImg={brandPatternMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={""}
+        altText={"keystone brand pattern"}
         css={"col-span-2"}
       ></Picture>
     </BaseProjectPage>
