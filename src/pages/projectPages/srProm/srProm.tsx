@@ -52,7 +52,6 @@ function SrProm() {
         desktopImg={""}
         altText={""}
         css={"row-span-2"}
-        imgCss="h-full"
       ></Picture>
 
       <Picture
@@ -85,7 +84,6 @@ function SrProm() {
         desktopImg={""}
         altText={"prom picture with date"}
         css={"row-span-2"}
-        imgCss="h-full"
       ></Picture>
 
       <Picture
