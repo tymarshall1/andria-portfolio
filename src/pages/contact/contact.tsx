@@ -1,8 +1,8 @@
-import contactImg from "./assets/contact-page.png";
+import contactImg from "./assets/contact-mobile.png";
 function Contact() {
   return (
     <div
-      className="p-4 min-h-svh"
+      className="flex flex-col items-center justify-center p-4 bg-no-repeat bg-cover min-h-svh"
       style={{ backgroundImage: `url('${contactImg}')` }}
     >
       <h1 className="my-6 text-5xl font-normal text-center text-white font-alexBrush">

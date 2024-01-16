@@ -5,11 +5,11 @@ import groupMobileTwo from "./assets/group-picture mobile 2.png";
 import friendsOneMobile from "./assets/picture-1-with-friend mobile.png";
 import friendsTwoMobile from "./assets/pic-with-friend-2 mobile.png";
 import friendsThreeMobile from "./assets/picture-with-friend-3 mobile.png";
-import friendsFourMobile from "./assets/pic-with-friend-4-mobile.png";
+import friendsFourMobile from "./assets/nilsa-senior-prom-mobile-1.png";
 import siblingsMobile from "./assets/pictures-with-siblings mobile.png";
 import uncleMobile from "./assets/picture-with-uncle mobile.png";
 import dateOneMobile from "./assets/picture-with-date mobile.png";
-import dateTwoMobile from "./assets/picture-with-date-2-mobile.png";
+import dateTwoMobile from "./assets/nilsa-senior-prom-pictures-date-mobile.png";
 
 function SrProm() {
   return (

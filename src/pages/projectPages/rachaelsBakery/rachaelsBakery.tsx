@@ -3,6 +3,10 @@ import Picture from "../../../components/picture";
 import businessCardsMobile from "./assets/business-cards-mobile.png";
 import logoMobile from "./assets/logo-mobile.png";
 import rachaelsNameMobile from "./assets/rachaels-name-mobile.png";
+import mugsMobile from "./assets/rachaels-coffee-cups-moblie.png";
+import bagsMobile from "./assets/rachaels-take-home-bags-mobile.png";
+import tshirtsMobileOne from "./assets/tshirt-design-1-rachael-mobile.png";
+import tshirtsMobileTwo from "./assets/tshirt-design-2-rachael-mobile.png";
 function RachaelsBakery() {
   return (
     <BaseProjectPage
@@ -33,7 +37,39 @@ function RachaelsBakery() {
         mobileImg={businessCardsMobile}
         tabletImg={""}
         desktopImg={""}
-        altText={"Rachaels Buisness cards"}
+        altText={"Rachaels Business cards"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={mugsMobile}
+        tabletImg={""}
+        desktopImg={""}
+        altText={"Rachaels mug design "}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={bagsMobile}
+        tabletImg={""}
+        desktopImg={""}
+        altText={"Rachaels bags design"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={tshirtsMobileOne}
+        tabletImg={""}
+        desktopImg={""}
+        altText={"Rachaels t-shirt designs"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={tshirtsMobileTwo}
+        tabletImg={""}
+        desktopImg={""}
+        altText={"Rachaels t-shirt designs"}
         css={""}
       ></Picture>
     </BaseProjectPage>
