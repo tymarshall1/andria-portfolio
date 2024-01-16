@@ -9,7 +9,7 @@ type BaseProjectPageProps = {
 
 function BaseProjectPage(props: BaseProjectPageProps) {
   return (
-    <div className="p-4 ">
+    <div className="p-4">
       <h1 className="mb-4 text-2xl font-normal text-center text-black font-alexBrush">
         {props.title}
       </h1>
