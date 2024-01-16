@@ -44,6 +44,7 @@ function SrProm() {
         desktopImg={""}
         altText={"prom picture with uncle"}
         css={""}
+        imgCss="h-full w-full object-cover"
       ></Picture>
 
       <Picture
@@ -60,6 +61,7 @@ function SrProm() {
         desktopImg={""}
         altText={"picture with date"}
         css={""}
+        imgCss="h-full w-full object-cover"
       ></Picture>
 
       <Picture
@@ -92,6 +94,7 @@ function SrProm() {
         desktopImg={""}
         altText={"group photo with friends"}
         css={""}
+        imgCss="h-full w-full object-cover"
       ></Picture>
 
       <Picture
@@ -100,6 +103,7 @@ function SrProm() {
         desktopImg={""}
         altText={"group photo with friends"}
         css={""}
+        imgCss="h-full w-full object-cover"
       ></Picture>
     </BaseProjectPage>
   );

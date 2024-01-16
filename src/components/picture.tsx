@@ -15,7 +15,7 @@ function Picture(props: PictureProps) {
       <img
         src={props.mobileImg}
         alt={props.altText}
-        className={`max-w-full object-fit h-full ${props.imgCss}`}
+        className={`max-w-full ${props.imgCss}`}
       />
     </picture>
   );
