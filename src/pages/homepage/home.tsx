@@ -1,13 +1,13 @@
 import reviewStars from "./assets/reviewStars.svg";
-import reviewCircle from "./assets/reviewCircles.svg";
-import { useState } from "react";
 import backgroundImgMobile from "./assets/background.png";
 import Picture from "../../components/picture";
 import brand from "./assets/brand.png";
 import photography from "./assets/photography.png";
 import advertisements from "./assets/advertisements.png";
 import webDesign from "./assets/webDesign.png";
-import arrow from "./assets/arrow.svg";
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 function Banner() {
   return (
     <div className="relative bg-tertiaryTwo">
@@ -195,7 +195,7 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
     <div
       id="reviewCard"
       className={`flex flex-col items-center justify-between px-2 py-5 text-xs font-normal text-center text-white rounded
-       bg-tertiaryTwo font-manjari min-h-60`}
+       bg-tertiaryTwo font-manjari min-h-60 mx-4`}
     >
       <img src={reviewStars} alt="five stars" className="h-8" />
       <p className="">{props.review}</p>
@@ -205,102 +205,53 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
 }
 
 function CustomerReviews() {
-  const [swapReview, setSwapReview] = useState(1);
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
 
-  const reviews = [
-    <CustomerReviewCard
-      review="As an Internship manager, I was impressed by her work ethic, marketing
+  return (
+    <Carousel responsive={responsive} className="py-6 bg-secondary">
+      <CustomerReviewCard
+        review="As an Internship manager, I was impressed by her work ethic, marketing
               designs, innovative book designs, logos, and managerial skills. She is a
               hard-working young lady with a great sense of humor and commitment to
               her duty. She was always ready to go the extra mile to provide
               high-quality customer service."
-      reviewAuthor="-Aldin Beslagic"
-    />,
+        reviewAuthor="-Aldin Beslagic"
+      />
 
-    <CustomerReviewCard
-      review="I reached out to Andria after seeing some of the different ads and book covers that she
-              completed on her Instagram page. I had no idea where to even start with trying to advertise my business. 
-              She created a TON of different logo designs, business cards, and more for me to choose from. 
-              I was also able to change specific things and she was great about any changes I wanted to make!! 
+      <CustomerReviewCard
+        review="I reached out to Andria after seeing some of the different ads and book covers that she
+              completed on her Instagram page. I had no idea where to even start with trying to advertise my business.
+              She created a TON of different logo designs, business cards, and more for me to choose from.
+              I was also able to change specific things and she was great about any changes I wanted to make!!
               I look forward to using her for ALL my graphic design needs!"
-      reviewAuthor="-Rachael Berg"
-    />,
+        reviewAuthor="-Rachael Berg"
+      />
 
-    <CustomerReviewCard
-      review="I am so glad that I went to Andria for help with my flyer/poster for my
-              up-incoming business. Andria made me my advertisement in a quick and speedy manor, 
-              while also making the product look amazing. She asked for feedback on how I felt on the poster, 
+      <CustomerReviewCard
+        review="I am so glad that I went to Andria for help with my flyer/poster for my
+              up-incoming business. Andria made me my advertisement in a quick and speedy manor,
+              while also making the product look amazing. She asked for feedback on how I felt on the poster,
               and when I gave her feedback, she fixed it immediately. Great customer service, great product, overall 10/10."
-      reviewAuthor="-Tyler Geiger"
-    />,
-  ];
-
-  function handleCardChangeArrow(
-    e: React.MouseEvent<HTMLImageElement, MouseEvent>
-  ) {
-    if (e.currentTarget.alt === "left arrow") {
-      if (swapReview - 1 >= 0) {
-        setSwapReview(swapReview - 1);
-      }
-    } else {
-      if (swapReview + 1 <= 2) {
-        setSwapReview(swapReview + 1);
-      }
-    }
-  }
-  return (
-    <section className="px-4 py-8 bg-secondary">
-      <h1 className="mb-4 text-base text-center text-tertiaryTwo font-koulen">
-        WHAT MY CUSTOMERS SAY
-      </h1>
-      {reviews[swapReview]}
-      <div className="flex items-center justify-between gap-2 mt-4">
-        <img
-          src={arrow}
-          alt="left arrow"
-          className={`rotate-180 transition-opacity h-11 w-11 ${
-            swapReview - 1 === -1 ? "opacity-25" : "opacity-100"
-          }`}
-          onClick={(e) => {
-            handleCardChangeArrow(e);
-          }}
-        />
-        <div id="slideCircles" className="flex gap-2">
-          <img
-            src={reviewCircle}
-            alt=""
-            onClick={() => setSwapReview(0)}
-            className={`w-2 h-2 transition-transform ${
-              swapReview === 0 ? "scale-150" : "scale-100"
-            }`}
-          />
-          <img
-            src={reviewCircle}
-            alt=""
-            onClick={() => setSwapReview(1)}
-            className={`w-2 h-2 transition-transform ${
-              swapReview === 1 ? "scale-150" : "scale-100"
-            }`}
-          />
-          <img
-            src={reviewCircle}
-            alt=""
-            onClick={() => setSwapReview(2)}
-            className={`w-2 h-2 transition-transform ${
-              swapReview === 2 ? "scale-150" : "scale-100"
-            }`}
-          />
-        </div>
-        <img
-          src={arrow}
-          alt="right arrow"
-          onClick={(e) => handleCardChangeArrow(e)}
-          className={`transition-opacity h-11 w-11 ${
-            swapReview + 1 === reviews.length ? "opacity-25" : "opacity-100"
-          }`}
-        />
-      </div>
-    </section>
+        reviewAuthor="-Tyler Geiger"
+      />
+    </Carousel>
   );
 }
 
