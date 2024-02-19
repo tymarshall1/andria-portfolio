@@ -75,7 +75,7 @@ type SingleSkillProps = {
 
 function SingleSkill(props: SingleSkillProps) {
   return (
-    <div className="flex flex-col items-center justify-center gap-3 p-4 mb-6 text-center rounded bg-tertiaryTwo lg:p-10">
+    <div className="flex flex-col items-center justify-center gap-3 p-4 mb-6 text-center rounded shadow-2xl bg-tertiaryTwo lg:p-10">
       <img src={props.imgLink} alt={props.imgAlt} className="h-12" />
       <h2 className="font-extrabold text-white font-inter">{props.title}</h2>
       <p className="max-w-md text-xs font-semibold text-white font-inter">
@@ -131,7 +131,7 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
     <div
       id="reviewCard"
       className={`flex flex-col items-center justify-between px-2 py-5 text-center text-white rounded
-       bg-tertiaryTwo font-inter min-h-60 `}
+       bg-tertiaryTwo font-inter min-h-60 shadow-2xl`}
     >
       <img src={reviewStars} alt="five stars" className="h-8" />
       <p className="max-w-screen-md text-xs font-semibold">{props.review}</p>

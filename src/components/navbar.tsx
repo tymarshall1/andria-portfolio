@@ -15,7 +15,7 @@ function HamburgerNav() {
       />
       <nav
         id="hamburgerNav"
-        className={`fixed top-0 right-0  w-3/4 bg-white h-full z-40 ease-in-out duration-300 overflow-scroll ${
+        className={`fixed top-0 right-0  w-3/4 sm:w-1/2 bg-primary h-full z-40 ease-in-out duration-300 overflow-scroll  ${
           isOpen ? " translate-x-0 transition" : " translate-x-full transition"
         }`}
       >
@@ -23,17 +23,17 @@ function HamburgerNav() {
           src={closeBtn}
           onClick={() => setIsOpen(false)}
           alt="close nav button"
-          className="self-start w-10 h-10 mb-4"
+          className="self-start w-10 h-10 mb-4 cursor-pointer"
         />
         <div
-          className="flex flex-col items-center h-full gap-4 text-center"
+          className="flex flex-col items-center h-full gap-8 text-center"
           onClick={() => setIsOpen(false)}
         >
           {/*Home Link*/}
           <div className="">
             <Link
               to={"/"}
-              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
+              className="text-3xl font-extrabold text-center font-inter text-tertiaryOne"
             >
               Home
             </Link>
@@ -43,55 +43,55 @@ function HamburgerNav() {
           <div>
             <Link
               to={"/portfolio"}
-              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
+              className="text-3xl font-extrabold text-center font-inter text-tertiaryOne"
             >
               Portfolio
             </Link>
             <Link
               to={"/keystone-condominiums"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block mt-4"
             >
               Keystone Condominiums
             </Link>
             <Link
               to={"/rachaels-bakery"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Rachael’s Bakery
             </Link>
             <Link
               to={"/rock-n-rolls"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Rock’n Rolls Bakery
             </Link>
             <Link
               to={"/jr-prom"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Junior Prom
             </Link>
             <Link
               to={"/sr-prom"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Senior Prom
             </Link>
             <Link
               to={"/veterans-cemetery"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Veteran Cemetery
             </Link>
             <Link
               to={"/rehobeth-beach"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Rehoboth Beach
             </Link>
             <Link
               to={"/photo-manipulation"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Photo Manipulation
             </Link>
@@ -100,32 +100,32 @@ function HamburgerNav() {
           {/*Internship pages*/}
           <div>
             <Link
-              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
+              className="text-3xl font-extrabold text-center font-inter text-tertiaryOne"
               to={"/portfolio"}
             >
               Internship
             </Link>
             <Link
               to={"/book-covers"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block mt-4"
             >
               Book Covers
             </Link>
             <Link
               to={"/logo-designs"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Logo Designs
             </Link>
             <Link
               to={"/social-media-advertisements"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Social Media Ads
             </Link>
             <Link
               to={"/advertisements"}
-              className="text-center font-manjari text-xl font-normal text-[#797A6B] block"
+              className="text-center font-inter text-xl font-normal text-[#F4E2FC] block"
             >
               Advertisements
             </Link>
@@ -135,7 +135,7 @@ function HamburgerNav() {
           <div>
             <Link
               to={"/contact"}
-              className="text-5xl font-normal text-center font-alexBrush text-tertiaryTwo"
+              className="text-3xl font-extrabold text-center font-inter text-tertiaryOne"
             >
               Contact
             </Link>
