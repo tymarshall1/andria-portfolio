@@ -4,15 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#FCF3EC",
-        secondary: "#CDCEBE",
-        tertiaryOne: "#E0E1D1",
-        tertiaryTwo: "#6B705C",
+        primary: "#210D41",
+        secondary: "#532E85",
+        tertiaryOne: "#DEACF5",
+        tertiaryTwo: "#9854CB",
       },
       fontFamily: {
         alexBrush: ["Alex Brush", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],
         manjari: ["Manjari", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

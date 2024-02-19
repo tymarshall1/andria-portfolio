@@ -1,37 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer {
-  html {
-    font-family: "Alex Brush", cursive;
-    font-family: "Koulen", sans-serif;
-    font-family: "Manjari", sans-serif;
-  }
-  .wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-
-  .wave svg {
-    position: relative;
-    display: block;
-    width: calc(150% + 1.3px);
-    height: 50px;
-  }
-
-  .wave .wave-about {
-    fill: #e0e1d1;
-  }
-  .wave .wave-why {
-    fill: #ffffff;
-  }
-  .wave .wave-customers {
-    fill: #cdcebe;
-  }
-}

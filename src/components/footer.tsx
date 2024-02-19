@@ -1,12 +1,25 @@
-import socialMediaIcons from "../assets/instagramIcon.svg";
+import instagram from "../assets/instagram.svg";
+import google from "../assets/googlePlus.svg";
+import linkedin from "../assets/linkedin.svg";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="mt-auto bg-secondary flex gap-4 justify-center p-2">
-      <Link to={""}>
-        <img src={socialMediaIcons} alt="to instagram profile" />
-      </Link>
+    <footer className="flex flex-col items-center justify-center gap-4 p-2 mt-auto bg-primary">
+      <h2 className="text-xs font-extrabold text-white font-inter">
+        Lets Connect
+      </h2>
+      <div className="flex gap-3">
+        <Link to={""}>
+          <img src={instagram} alt="to instagram profile" className="h-6" />
+        </Link>
+        <Link to={""}>
+          <img src={google} alt="to google plus profile" className="h-6" />
+        </Link>
+        <Link to={""}>
+          <img src={linkedin} alt="to linkedin profile" className="h-6" />
+        </Link>
+      </div>
     </footer>
   );
 }
