@@ -26,22 +26,24 @@ function Hero() {
           imgCss="rounded-full h-60"
         ></Picture>
       </div>
-      <div className="grid gap-2 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
+      <div className="grid gap-4 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
         <h2 className="text-xl font-extrabold text-white font-inter">
           Hello It's Me
         </h2>
-        <h1 className="text-6xl font-extrabold text-white font-inter">
-          Andria Moore
-        </h1>
-        <h2 className="text-xl font-extrabold text-white font-inter">
-          And I'm a <span className="text-tertiaryOne">Graphic Designer</span>
-        </h2>
-        <p className="text-sm font-normal text-white font-inter max-w-[518px]">
-          Hi! I'm Andria, a creative Graphic Designer with a talent for
-          developing unique custom artwork. I have an innovative approach to
-          ideas and concept development.
+        <div className="mb-2">
+          <h1 className="text-6xl font-extrabold text-white font-inter">
+            Andria Moore
+          </h1>
+          <h2 className="text-xl font-extrabold text-white font-inter">
+            I'm a <span className="text-tertiaryOne">Graphic Designer</span>
+          </h2>
+        </div>
+        <p className="text-sm font-normal text-white font-inter max-w-[518px] mb-4">
+          Hi! I'm a creative Graphic Designer with a talent for developing
+          unique custom artwork. I have an innovative approach to ideas and
+          concept development.
         </p>
-        <div className="flex gap-5">
+        <div className="flex gap-5 mb-1">
           <Link to={"/"}>
             <img
               src={instagram}
@@ -56,7 +58,7 @@ function Hero() {
             <img src={linkedin} className="h-10" alt="link to linkedin page" />
           </Link>
         </div>
-        <button className="py-.5 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-black font-black text-base mb-2">
+        <button className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-black font-black text-base mb-6">
           Download My CV
         </button>
       </div>
@@ -73,7 +75,7 @@ type SingleSkillProps = {
 
 function SingleSkill(props: SingleSkillProps) {
   return (
-    <div className="flex flex-col items-center justify-center gap-3 p-4 mb-6 text-center rounded bg-tertiaryTwo">
+    <div className="flex flex-col items-center justify-center gap-3 p-4 mb-6 text-center rounded bg-tertiaryTwo lg:p-10">
       <img src={props.imgLink} alt={props.imgAlt} className="h-12" />
       <h2 className="font-extrabold text-white font-inter">{props.title}</h2>
       <p className="max-w-md text-xs font-semibold text-white font-inter">
@@ -85,11 +87,11 @@ function SingleSkill(props: SingleSkillProps) {
 
 function Skills() {
   return (
-    <div className="p-4 bg-secondary">
+    <div className="p-8 bg-secondary">
       <h1 className="p-4 text-2xl font-extrabold text-center text-white font-inter lg:row-span-2 lg:col-start-2 lg:col-end-3">
-        My skills
+        My Skills
       </h1>
-      <div className="gap-4 lg:grid lg:grid-cols-3">
+      <div className="gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
         <SingleSkill
           imgLink={branding}
           imgAlt={""}
@@ -139,7 +141,7 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
 }
 
 function CustomerReviews() {
-  const [swapReview, setSwapReview] = useState(1);
+  const [swapReview, setSwapReview] = useState(0);
 
   const reviews = [
     <CustomerReviewCard
@@ -183,7 +185,7 @@ function CustomerReviews() {
     }
   }
   return (
-    <section className="px-4 py-8">
+    <section className="px-4 py-8 mx-auto">
       <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter">
         My Reviews
       </h1>

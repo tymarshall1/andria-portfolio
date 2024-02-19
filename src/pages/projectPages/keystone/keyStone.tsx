@@ -15,9 +15,9 @@ function Keystone() {
       description={`For this project I created a luxury condominium called Keystone that is projected to be in Tampa Florida. 
       The guide was to create a branding logo that can be displayed on multiple items.`}
       optionalExtraDescription={
-        <p className="mt-4 text-xs font-normal text-primary font-inter">
-          <div className="mb-2 font-bold">
-            <h2 className="text-2xl font-bold text-primary font-inter">
+        <p className="mt-4 text-xs font-normal text-primary font-inter ">
+          <div className="mb-2 font-bold ">
+            <h2 className="text-2xl font-bold text-secondary font-inter">
               Brand Strategy:
             </h2>
           </div>

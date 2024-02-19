@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import hamburger from "../assets/hamburger.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import closeBtn from "../assets/closeBtn.svg";
 // import navhomebtn from "../assets/navhomebtn.svg";
 function HamburgerNav() {
@@ -146,7 +146,52 @@ function HamburgerNav() {
   );
 }
 
+function DesktopBar() {
+  return (
+    <div className="flex gap-8 p-6">
+      <Link
+        className="text-3xl font-extrabold font-inter text-tertiaryOne"
+        to={"/"}
+      >
+        Home
+      </Link>
+      <Link
+        className="text-3xl font-extrabold font-inter text-tertiaryOne "
+        to={"/portfolio"}
+      >
+        Portfolio
+      </Link>
+      <Link
+        className="text-3xl font-extrabold font-inter text-tertiaryOne "
+        to={""}
+      >
+        About Me
+      </Link>
+      <Link
+        className="text-3xl font-extrabold font-inter text-[#6437A0] bg-tertiaryOne rounded px-2"
+        to={"/contact"}
+      >
+        Contact
+      </Link>
+    </div>
+  );
+}
+
 function Navbar() {
+  const [screenSize, setScreenSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup function to remove event listener
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <nav className="flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
       <Link to={"/"}>
@@ -155,7 +200,7 @@ function Navbar() {
           Andria Moore
         </h1>
       </Link>
-      <HamburgerNav />
+      {screenSize > 1024 ? <DesktopBar /> : <HamburgerNav />}
     </nav>
   );
 }
