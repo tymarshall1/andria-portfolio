@@ -1,6 +1,6 @@
 // import reviewStars from "./assets/reviewStars.svg";
 // import backgroundImgMobile from "./assets/background.png";
-// import Picture from "../../components/picture";
+import Picture from "../../components/picture";
 // import brand from "./assets/brand.png";
 // import photography from "./assets/photography.png";
 // import advertisements from "./assets/advertisements.png";
@@ -8,7 +8,10 @@
 import instagram from "../../assets/instagram.svg";
 import google from "../../assets/googlePlus.svg";
 import linkedin from "../../assets/linkedin.svg";
-import monkey from "../../assets/monkey.jpg";
+import profilePicture from "./assets/profile-picture.jpg";
+import advertisement from "./assets/advertisement.svg";
+import photoManip from "./assets/photoManip.svg";
+import branding from "./assets/branding.svg";
 import { Link } from "react-router-dom";
 
 // import Carousel from "react-multi-carousel";
@@ -262,11 +265,18 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="grid gap-4 p-4">
-      <div className="flex items-center justify-center">
-        <img src={monkey} alt="" className="rounded-3xl h-60" />
+    <div className="grid gap-4 p-4 lg:grid-cols-2 lg:p-8">
+      <div className="flex items-center justify-center lg:col-start-2 lg:col-end-3">
+        <Picture
+          mobileImg={profilePicture}
+          tabletImg={""}
+          desktopImg={""}
+          altText={"profile picture of andria moore."}
+          css={""}
+          imgCss="rounded-full h-60"
+        ></Picture>
       </div>
-      <div className="grid gap-2">
+      <div className="grid gap-2 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
         <h2 className="text-xl font-extrabold text-white font-inter">
           Hello It's Me
         </h2>
@@ -296,7 +306,7 @@ function Hero() {
             <img src={linkedin} className="h-10" alt="link to linkedin page" />
           </Link>
         </div>
-        <button className="py-.5 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-black font-black text-base">
+        <button className="py-.5 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-black font-black text-base mb-2">
           Download My CV
         </button>
       </div>
@@ -304,8 +314,59 @@ function Hero() {
   );
 }
 
+type SingleSkillProps = {
+  imgLink: string;
+  imgAlt: string;
+  title: string;
+  description: string;
+};
+
+function SingleSkill(props: SingleSkillProps) {
+  return (
+    <div className="flex flex-col items-center justify-center gap-3 p-4 mb-6 text-center rounded bg-tertiaryTwo">
+      <img src={props.imgLink} alt={props.imgAlt} className="h-12" />
+      <h2 className="text-white font-inter font">{props.title}</h2>
+      <p className="max-w-md text-sm text-white font-inter">
+        {props.description}
+      </p>
+    </div>
+  );
+}
+
 function Skills() {
-  return <div className="bg-secondary"></div>;
+  return (
+    <div className="p-4 bg-secondary">
+      <h1 className="p-4 text-2xl font-extrabold text-center text-white font-inter lg:row-span-2 lg:col-start-2 lg:col-end-3">
+        My skills
+      </h1>
+      <div className="gap-4 lg:grid lg:grid-cols-3">
+        <SingleSkill
+          imgLink={branding}
+          imgAlt={""}
+          title={"Branding"}
+          description={
+            "Having a memorable brand is the most important aspect of a company. I have the skills to take your company to the next level."
+          }
+        />
+        <SingleSkill
+          imgLink={advertisement}
+          imgAlt={""}
+          title={"Advertisements"}
+          description={
+            "With my skills I can bring your brand to life with the power of knowledge, design, and imagination. A consistent brand design across all social platforms is just as important as the brand itself.  "
+          }
+        />
+        <SingleSkill
+          imgLink={photoManip}
+          imgAlt={""}
+          title={"Photo Manipulation"}
+          description={
+            "With my skills I can bring your brand to life with the power of knowledge, design, and imagination. A consistent brand design across all social platforms is just as important as the brand itself.  "
+          }
+        />
+      </div>
+    </div>
+  );
 }
 
 function Home() {
