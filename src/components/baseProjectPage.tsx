@@ -9,12 +9,12 @@ type BaseProjectPageProps = {
 
 function BaseProjectPage(props: BaseProjectPageProps) {
   return (
-    <div className="p-4 bg-white">
-      <h1 className="mb-4 text-2xl font-normal text-center text-black font-alexBrush">
+    <div className="p-8 bg-white">
+      <h1 className="mb-4 text-3xl font-extrabold text-center text-primary font-inter">
         {props.title}
       </h1>
-      <div className="p-2 mb-4 border-[1px] border-gray-400">
-        <p className="text-xs font-normal text-black font-manjari">
+      <div className="p-2 mb-4 text-center">
+        <p className="text-xs font-normal text-primary font-inter">
           {props.description}
         </p>
         {props.optionalExtraDescription}

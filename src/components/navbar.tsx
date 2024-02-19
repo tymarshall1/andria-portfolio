@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import hamburger from "../assets/hamburger.svg";
 import { useState } from "react";
 import closeBtn from "../assets/closeBtn.svg";
-import navhomebtn from "../assets/navhomebtn.svg";
+// import navhomebtn from "../assets/navhomebtn.svg";
 function HamburgerNav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -151,7 +151,9 @@ function Navbar() {
     <nav className="flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
       <Link to={"/"}>
         {/* <img src={navhomebtn} alt="home button" className="" /> */}
-        <h1 className="text-secondary">Andria Moore</h1>
+        <h1 className="text-3xl font-extrabold text-center text-white font-inter">
+          Andria Moore
+        </h1>
       </Link>
       <HamburgerNav />
     </nav>
