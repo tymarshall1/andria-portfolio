@@ -1,70 +1,49 @@
-import contactImg from "./assets/contact-mobile.png";
+import diamond from "./assets/diamond.svg";
 function Contact() {
   return (
-    <div
-      className="flex flex-col items-center justify-center p-4 bg-no-repeat bg-cover min-h-svh"
-      style={{ backgroundImage: `url('${contactImg}')` }}
-    >
-      <h1 className="my-6 text-5xl font-normal text-center text-white font-alexBrush">
-        Get in Touch
-      </h1>
+    <div className="p-8">
+      <div className="flex items-center justify-center gap-4 mb-20">
+        <img src={diamond} alt="" className="w-12 h-12" />
+        <h1 className="text-6xl font-extrabold text-center text-white font-inter">
+          Contact <span className="text-tertiaryOne">Me!</span>
+        </h1>
+        <img src={diamond} alt="" className="w-12 h-12" />
+      </div>
       <form
-        className="flex flex-col gap-4 p-6 mb-6 text-white border-4 border-white"
-        action=" "
+        action=""
+        className="grid items-center max-w-4xl gap-6 mx-auto justify-stretch md:grid-cols-2"
       >
-        <div>
-          <label htmlFor="name" className="text-xl font-normal font-manjari">
-            Name
-          </label>
+        <label htmlFor="name" className="">
           <input
-            className="w-full p-2 placeholder-white placeholder-opacity-75 border-b-2 border-white rounded-none outline-none bg-inherit"
+            className="bg-[#6437A0] rounded font-inter font-extrabold text-2xl p-4 text-white placeholder:text-white w-full"
             type="text"
             name="name"
-            placeholder="John Doe"
             id="name"
-            required={true}
+            placeholder="Name"
+            required
           />
-        </div>
-
-        <div>
-          <label htmlFor="email" className="text-xl font-normal font-manjari">
-            Email
-          </label>
+        </label>
+        <label htmlFor="email">
           <input
-            className="w-full p-2 placeholder-white placeholder-opacity-75 border-b-2 border-white rounded-none outline-none bg-inherit"
+            className="bg-[#6437A0] rounded font-inter font-extrabold text-2xl text-white p-4 placeholder:text-white w-full"
             type="email"
             name="email"
-            placeholder="John@example.com"
             id="email"
-            required={true}
+            placeholder="Email"
+            required
           />
-        </div>
-
-        <div>
-          <label htmlFor="message" className="text-xl font-normal font-manjari">
-            Message
-          </label>
+        </label>
+        <label htmlFor="message" className="md:col-start-1 md:col-end-3">
           <textarea
+            className="bg-[#6437A0] rounded font-inter font-extrabold text-2xl
+            p-4 placeholder:text-white text-white w-full min-h-60"
             name="message"
             id="message"
-            className="w-full p-2 text-black h-28 font-manjari"
-            required={true}
+            placeholder="Message"
+            required
           ></textarea>
-        </div>
-
-        <button type="submit" className="p-2 text-black bg-white">
-          Submit
-        </button>
+        </label>
       </form>
-
-      <div>
-        <h1 className="text-5xl font-normal text-center text-white font-alexBrush">
-          Follow Me
-        </h1>
-        <div className="flex items-center justify-center gap-4">
-          social icons
-        </div>
-      </div>
     </div>
   );
 }

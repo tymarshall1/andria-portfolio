@@ -185,7 +185,7 @@ function CustomerReviews() {
     }
   }
   return (
-    <section className="px-4 py-8 mx-auto">
+    <section className="px-4 py-8 mx-auto ">
       <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter">
         My Reviews
       </h1>

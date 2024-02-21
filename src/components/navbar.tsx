@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import hamburger from "../assets/hamburger.svg";
 import { useEffect, useState } from "react";
 import closeBtn from "../assets/closeBtn.svg";
-// import navhomebtn from "../assets/navhomebtn.svg";
+import navHomeBtn from "../assets/logo 2.svg";
+import sidebarBG from "../assets/sidebarBg.png";
+
 function HamburgerNav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,12 +14,14 @@ function HamburgerNav() {
         src={hamburger}
         alt="dropdown menu"
         onClick={() => setIsOpen(true)}
+        className="mt-5"
       />
       <nav
         id="hamburgerNav"
-        className={`fixed top-0 right-0  w-3/4 sm:w-1/2 bg-primary h-full z-40 ease-in-out duration-300 overflow-scroll  ${
+        className={`fixed top-0 right-0  w-3/4 sm:w-1/2  h-full z-40 ease-in-out duration-300 overflow-scroll bg-cover  ${
           isOpen ? " translate-x-0 transition" : " translate-x-full transition"
         }`}
+        style={{ backgroundImage: `url(${sidebarBG})` }}
       >
         <img
           src={closeBtn}
@@ -150,25 +154,25 @@ function DesktopBar() {
   return (
     <div className="flex gap-8 p-6">
       <Link
-        className="text-3xl font-extrabold font-inter text-tertiaryOne"
+        className="text-2xl font-extrabold font-inter text-tertiaryOne"
         to={"/"}
       >
         Home
       </Link>
       <Link
-        className="text-3xl font-extrabold font-inter text-tertiaryOne "
+        className="text-2xl font-extrabold font-inter text-tertiaryOne "
         to={"/portfolio"}
       >
         Portfolio
       </Link>
       <Link
-        className="text-3xl font-extrabold font-inter text-tertiaryOne "
+        className="text-2xl font-extrabold font-inter text-tertiaryOne "
         to={""}
       >
         About Me
       </Link>
       <Link
-        className="text-3xl font-extrabold font-inter text-[#6437A0] bg-tertiaryOne rounded px-2"
+        className="text-2xl font-extrabold font-inter text-[#6437A0] bg-tertiaryOne rounded px-2"
         to={"/contact"}
       >
         Contact
@@ -187,7 +191,6 @@ function Navbar() {
 
     window.addEventListener("resize", handleResize);
 
-    // Cleanup function to remove event listener
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -195,10 +198,7 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
       <Link to={"/"}>
-        {/* <img src={navhomebtn} alt="home button" className="" /> */}
-        <h1 className="text-3xl font-extrabold text-center text-white font-inter">
-          Andria Moore
-        </h1>
+        <img src={navHomeBtn} alt="home button" className="" />
       </Link>
       {screenSize > 1024 ? <DesktopBar /> : <HamburgerNav />}
     </nav>
