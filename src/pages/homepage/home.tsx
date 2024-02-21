@@ -12,7 +12,7 @@ import { useState } from "react";
 import arrowLeft from "./assets/arrow-left.svg";
 import arrowRight from "./assets/arrow-right.svg";
 import reviewCircle from "./assets/reviewCircles.svg";
-
+import test from "../../assets/test.txt";
 function Hero() {
   return (
     <div className="grid gap-4 p-4 lg:grid-cols-2 lg:p-8">
@@ -58,9 +58,13 @@ function Hero() {
             <img src={linkedin} className="h-10" alt="link to linkedin page" />
           </Link>
         </div>
-        <button className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-primary font-black text-base mb-6">
+        <a
+          href={test}
+          download="test"
+          className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-primary font-black text-base mb-6 text-center max-h-10"
+        >
           Download My CV
-        </button>
+        </a>
       </div>
     </div>
   );
