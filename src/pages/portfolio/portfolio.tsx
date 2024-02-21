@@ -12,12 +12,25 @@ import logo from "./assets/logos.png";
 import socialMedia from "./assets/social-media.png";
 import advertisements from "./assets/advertisements.png";
 
+import keyStoneTablet from "./assets/keystone-web.png";
+import rachaelsBakeryTablet from "./assets/rachaels-bakery-web.png";
+import rocknRollsTablet from "./assets/rock'n-rolls-web.png";
+import jrPromTablet from "./assets/Nilsa-Jr.-Pic-web.png";
+import srPromTablet from "./assets/Nilsa-Sr.-Pic-web.png";
+import lumsPondTablet from "./assets/lums-web.png";
+import beachTablet from "./assets/cape-web.png";
+import photoManipulationTablet from "./assets/photo-man-web.png";
+import bookCoverTablet from "./assets/book-covers-web.png";
+import logoTablet from "./assets/resumax-web.png";
+import socialMediaTablet from "./assets/social-media-ads-web.png";
+import advertisementsTablet from "./assets/advertisments-1-web.png";
+
 function Portfolio() {
   return (
-    <div className="grid grid-cols-2 gap-2 p-2 bg-white justify-items-center md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid grid-cols-2 gap-2 p-2 mx-auto bg-white justify-items-center md:grid-cols-3 lg:grid-cols-4 max-w-fit">
       <PictureButton
         mobileImg={keyStone}
-        tabletImg={""}
+        tabletImg={keyStoneTablet}
         desktopImg={""}
         altText={"keystone project"}
         css={""}
@@ -25,7 +38,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={rachaelsBakery}
-        tabletImg={""}
+        tabletImg={rachaelsBakeryTablet}
         desktopImg={""}
         altText={"Rachaels bakery project"}
         css={""}
@@ -33,7 +46,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={rocknRolls}
-        tabletImg={""}
+        tabletImg={rocknRollsTablet}
         desktopImg={""}
         altText={"rock n rolls project"}
         css={""}
@@ -41,7 +54,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={jrProm}
-        tabletImg={""}
+        tabletImg={jrPromTablet}
         desktopImg={""}
         to={"/jr-prom"}
         altText={"Jr. prom photography"}
@@ -49,7 +62,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={srProm}
-        tabletImg={""}
+        tabletImg={srPromTablet}
         desktopImg={""}
         altText={"Sr. prom photography"}
         css={""}
@@ -57,7 +70,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={lumsPond}
-        tabletImg={""}
+        tabletImg={lumsPondTablet}
         desktopImg={""}
         altText={"Lums Pond photography"}
         css={""}
@@ -65,7 +78,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={beach}
-        tabletImg={""}
+        tabletImg={beachTablet}
         desktopImg={""}
         altText={"Beach photography"}
         css={""}
@@ -73,7 +86,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={photoManipulation}
-        tabletImg={""}
+        tabletImg={photoManipulationTablet}
         desktopImg={""}
         altText={"Photo Manipulation"}
         css={""}
@@ -81,7 +94,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={bookCover}
-        tabletImg={""}
+        tabletImg={bookCoverTablet}
         desktopImg={""}
         altText={"book cover from internship"}
         css={""}
@@ -89,7 +102,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={logo}
-        tabletImg={""}
+        tabletImg={logoTablet}
         desktopImg={""}
         altText={"logos from internship"}
         css={""}
@@ -97,7 +110,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={socialMedia}
-        tabletImg={""}
+        tabletImg={socialMediaTablet}
         desktopImg={""}
         altText={"social media from internship"}
         css={""}
@@ -105,7 +118,7 @@ function Portfolio() {
       />
       <PictureButton
         mobileImg={advertisements}
-        tabletImg={""}
+        tabletImg={advertisementsTablet}
         desktopImg={""}
         altText={"advertisements from internship"}
         css={""}

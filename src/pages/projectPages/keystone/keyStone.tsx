@@ -22,22 +22,22 @@ function Keystone() {
       description={`For this project I created a luxury condominium called Keystone that is projected to be in Tampa Florida. 
       The guide was to create a branding logo that can be displayed on multiple items.`}
       optionalExtraDescription={
-        <p className="mt-4 text-xs font-normal text-primary font-inter ">
-          <div className="mb-2 font-bold ">
-            <h2 className="text-2xl font-bold text-secondary font-inter">
-              Brand Strategy:
-            </h2>
-          </div>
-          I first wanted to start off by choosing a really strong font that
-          could stand alone as a brand mark and also apart of the whole name. I
-          then had to identify what brand colors I wanted to go with. Since the
-          company wants to showcase a luxurious look and feel I went with 3
-          shades of purple. From there I wanted to design a logo mark that
-          represents the company. So, I decided to take the K in Keystone and
-          incorporate a sharp condo look and feel. My goal for this branding
-          project was to give this company a whole new look and feel and the
-          right start to attracting new clients."
-        </p>
+        <div className="mt-2">
+          <h2 className="text-2xl font-bold text-secondary font-inter">
+            Brand Strategy:
+          </h2>
+          <p className="mt-4 text-xs font-normal text-primary font-inter ">
+            I first wanted to start off by choosing a really strong font that
+            could stand alone as a brand mark and also apart of the whole name.
+            I then had to identify what brand colors I wanted to go with. Since
+            the company wants to showcase a luxurious look and feel I went with
+            3 shades of purple. From there I wanted to design a logo mark that
+            represents the company. So, I decided to take the K in Keystone and
+            incorporate a sharp condo look and feel. My goal for this branding
+            project was to give this company a whole new look and feel and the
+            right start to attracting new clients.
+          </p>
+        </div>
       }
     >
       <Picture

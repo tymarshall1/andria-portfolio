@@ -27,7 +27,7 @@ function PictureButton(props: PictureButtonProps) {
         <img
           src={props.mobileImg}
           alt={props.altText}
-          className="max-w-full"
+          className="max-w-full lg:h-auto"
           onLoad={() => setIsLoading(false)}
         />
       </picture>

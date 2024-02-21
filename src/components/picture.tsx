@@ -25,7 +25,7 @@ function Picture(props: PictureProps) {
         onLoad={() => setIsLoading(false)}
         src={props.mobileImg}
         alt={props.altText}
-        className={`max-w-full  ${
+        className={`max-w-full lg:h-auto ${
           props.imgCss === undefined ? "" : props.imgCss
         }`}
       />

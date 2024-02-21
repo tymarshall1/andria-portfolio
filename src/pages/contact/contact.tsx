@@ -10,7 +10,8 @@ function Contact() {
         <img src={diamond} alt="" className="w-12 h-12" />
       </div>
       <form
-        action=""
+        action="https://usebasin.com/f/0c8c5eb2c646"
+        method="POST"
         className="grid items-center max-w-4xl gap-6 mx-auto justify-stretch md:grid-cols-2"
       >
         <label htmlFor="name" className="">
@@ -43,7 +44,10 @@ function Contact() {
             required
           ></textarea>
         </label>
-        <button className="w-full p-4 text-2xl font-extrabold rounded text-primary bg-tertiaryOne md:col-start-1 md:col-end-3 font-inter">
+        <button
+          type="submit"
+          className="w-full p-4 text-2xl font-extrabold rounded text-primary bg-tertiaryOne md:col-start-1 md:col-end-3 font-inter"
+        >
           Submit
         </button>
       </form>

@@ -9,6 +9,15 @@ import coffeeCupMobile from "./assets/coffee-cup-mobile.png";
 import loyaltyCardMobile from "./assets/loyalty-cards-mobile.png";
 import takeHomeBagMobile from "./assets/take-home-bag-mobile.png";
 
+import advertTablet from "./assets/RNR-Ad-web.png";
+import brandPatternTablet from "./assets/RNR-Pattern-web.png";
+import businessCardTablet from "./assets/RNR-bus-card-web.png";
+import cakeBoxTablet from "./assets/RNR-cake-boxes-web.png";
+// import businessNameTablet from "./assets/";
+import coffeeCupTablet from "./assets/RNR-cups-web.png";
+import loyaltyCardTablet from "./assets/RNR-loyalty-cards-web.png";
+import takeHomeBagTablet from "./assets/RNR-bags-web.png";
+
 function RockNRolls() {
   return (
     <BaseProjectPage
@@ -21,6 +30,14 @@ function RockNRolls() {
       }
     >
       <Picture
+        mobileImg={brandPatternMobile}
+        tabletImg={brandPatternTablet}
+        desktopImg={""}
+        altText={"rock n rolls brand pattern"}
+        css={"col-span-2"}
+      ></Picture>
+
+      <Picture
         mobileImg={businessNameMobile}
         tabletImg={""}
         desktopImg={""}
@@ -30,7 +47,7 @@ function RockNRolls() {
 
       <Picture
         mobileImg={businessCardMobile}
-        tabletImg={""}
+        tabletImg={businessCardTablet}
         desktopImg={""}
         altText={"rock n rolls business cards"}
         css={""}
@@ -38,7 +55,7 @@ function RockNRolls() {
 
       <Picture
         mobileImg={loyaltyCardMobile}
-        tabletImg={""}
+        tabletImg={loyaltyCardTablet}
         desktopImg={""}
         altText={"rock n rolls loyalty cards"}
         css={""}
@@ -46,15 +63,23 @@ function RockNRolls() {
 
       <Picture
         mobileImg={coffeeCupMobile}
-        tabletImg={""}
+        tabletImg={coffeeCupTablet}
         desktopImg={""}
         altText={"rock n rolls coffee cups"}
         css={""}
       ></Picture>
 
       <Picture
+        mobileImg={advertMobile}
+        tabletImg={advertTablet}
+        desktopImg={""}
+        altText={"rock n rolls advertisement"}
+        css={"col-span-2"}
+      ></Picture>
+
+      <Picture
         mobileImg={cakeBoxMobile}
-        tabletImg={""}
+        tabletImg={cakeBoxTablet}
         desktopImg={""}
         altText={"rock n rolls cake box design"}
         css={""}
@@ -62,26 +87,10 @@ function RockNRolls() {
 
       <Picture
         mobileImg={takeHomeBagMobile}
-        tabletImg={""}
+        tabletImg={takeHomeBagTablet}
         desktopImg={""}
         altText={"rock n rolls take home bag"}
         css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={advertMobile}
-        tabletImg={""}
-        desktopImg={""}
-        altText={"rock n rolls advertisement"}
-        css={"col-span-2"}
-      ></Picture>
-
-      <Picture
-        mobileImg={brandPatternMobile}
-        tabletImg={""}
-        desktopImg={""}
-        altText={"rock n rolls brand pattern"}
-        css={"col-span-2"}
       ></Picture>
     </BaseProjectPage>
   );

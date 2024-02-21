@@ -152,7 +152,7 @@ function HamburgerNav() {
 
 function DesktopBar() {
   return (
-    <div className="flex gap-8 p-6">
+    <div className="flex gap-8 px-4 mt-3">
       <Link
         className="text-2xl font-extrabold font-inter text-tertiaryOne"
         to={"/"}

@@ -19,7 +19,7 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         </p>
         {props.optionalExtraDescription}
       </div>
-      <div className="grid grid-cols-2 gap-4 mx-auto max-w-fit">
+      <div className="grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit">
         {props.children}
       </div>
     </div>
