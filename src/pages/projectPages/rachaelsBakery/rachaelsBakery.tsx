@@ -7,6 +7,15 @@ import mugsMobile from "./assets/rachaels-coffee-cups-moblie.png";
 import bagsMobile from "./assets/rachaels-take-home-bags-mobile.png";
 import tshirtsMobileOne from "./assets/tshirt-design-1-rachael-mobile.png";
 import tshirtsMobileTwo from "./assets/tshirt-design-2-rachael-mobile.png";
+
+import businessCardsTablet from "./assets/RB-bus-cards-web.png";
+import logoTablet from "./assets/RB-logo-web.png";
+import rachaelsNameTablet from "./assets/RB-Name-logo-web.png";
+import mugsTablet from "./assets/RB-cups-web.png";
+import bagsTablet from "./assets/RB-bags-web.png";
+import tshirtsTabletOne from "./assets/RB-tshirt-1-web.png";
+import tshirtsTabletTwo from "./assets/RB-tshirts-2-web.png";
+
 function RachaelsBakery() {
   return (
     <BaseProjectPage
@@ -19,7 +28,7 @@ function RachaelsBakery() {
     >
       <Picture
         mobileImg={rachaelsNameMobile}
-        tabletImg={""}
+        tabletImg={rachaelsNameTablet}
         desktopImg={""}
         altText={"Rachaels name banner"}
         css={"col-span-2"}
@@ -27,7 +36,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={logoMobile}
-        tabletImg={""}
+        tabletImg={logoTablet}
         desktopImg={""}
         altText={"Rachaels logo"}
         css={""}
@@ -35,7 +44,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={businessCardsMobile}
-        tabletImg={""}
+        tabletImg={businessCardsTablet}
         desktopImg={""}
         altText={"Rachaels Business cards"}
         css={""}
@@ -43,7 +52,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={mugsMobile}
-        tabletImg={""}
+        tabletImg={mugsTablet}
         desktopImg={""}
         altText={"Rachaels mug design "}
         css={""}
@@ -51,7 +60,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={bagsMobile}
-        tabletImg={""}
+        tabletImg={bagsTablet}
         desktopImg={""}
         altText={"Rachaels bags design"}
         css={""}
@@ -59,7 +68,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={tshirtsMobileOne}
-        tabletImg={""}
+        tabletImg={tshirtsTabletOne}
         desktopImg={""}
         altText={"Rachaels t-shirt designs"}
         css={""}
@@ -67,7 +76,7 @@ function RachaelsBakery() {
 
       <Picture
         mobileImg={tshirtsMobileTwo}
-        tabletImg={""}
+        tabletImg={tshirtsTabletTwo}
         desktopImg={""}
         altText={"Rachaels t-shirt designs"}
         css={""}

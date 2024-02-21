@@ -14,7 +14,7 @@ function HamburgerNav() {
         src={hamburger}
         alt="dropdown menu"
         onClick={() => setIsOpen(true)}
-        className="mt-5"
+        className="h-5 mt-3 md:h-auto md:mt-5"
       />
       <nav
         id="hamburgerNav"
@@ -198,7 +198,7 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
       <Link to={"/"}>
-        <img src={navHomeBtn} alt="home button" className="" />
+        <img src={navHomeBtn} alt="home button" className="h-10 md:h-auto" />
       </Link>
       {screenSize > 1024 ? <DesktopBar /> : <HamburgerNav />}
     </nav>

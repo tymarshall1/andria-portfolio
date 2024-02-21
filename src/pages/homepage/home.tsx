@@ -58,7 +58,7 @@ function Hero() {
             <img src={linkedin} className="h-10" alt="link to linkedin page" />
           </Link>
         </div>
-        <button className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-black font-black text-base mb-6">
+        <button className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-primary font-black text-base mb-6">
           Download My CV
         </button>
       </div>

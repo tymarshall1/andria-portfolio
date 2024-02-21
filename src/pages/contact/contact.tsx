@@ -2,9 +2,9 @@ import diamond from "./assets/diamond.svg";
 function Contact() {
   return (
     <div className="p-8">
-      <div className="flex items-center justify-center gap-4 mb-20">
+      <div className="flex items-center justify-center gap-4 mb-10 md:mb-16">
         <img src={diamond} alt="" className="w-12 h-12" />
-        <h1 className="text-6xl font-extrabold text-center text-white font-inter">
+        <h1 className="text-4xl font-extrabold text-center text-white md:text-6xl font-inter">
           Contact <span className="text-tertiaryOne">Me!</span>
         </h1>
         <img src={diamond} alt="" className="w-12 h-12" />
@@ -43,6 +43,9 @@ function Contact() {
             required
           ></textarea>
         </label>
+        <button className="w-full p-4 text-2xl font-extrabold rounded text-primary bg-tertiaryOne md:col-start-1 md:col-end-3 font-inter">
+          Submit
+        </button>
       </form>
     </div>
   );

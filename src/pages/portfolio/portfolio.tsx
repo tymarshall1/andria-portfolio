@@ -61,7 +61,7 @@ function Portfolio() {
         desktopImg={""}
         altText={"Lums Pond photography"}
         css={""}
-        to={"/lums-pond"}
+        to={"/veterans-cemetery"}
       />
       <PictureButton
         mobileImg={beach}

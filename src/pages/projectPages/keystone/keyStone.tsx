@@ -8,6 +8,13 @@ import condoBuildingMobile from "./assets/condo-building-mobile.png";
 import keystoneLogoMobile from "./assets/keystone-logo-mobile.png";
 import tshirtMobile from "./assets/tshirt-mobile.png";
 
+import keystoneLogoDesk from "./assets/Keystone-logo-web.png";
+import coffeeMugDesk from "./assets/mugs-web.png";
+import tshirtDesk from "./assets/tshirt-web.png";
+import businessCardsDesk from "./assets/business-card-web.png";
+import companyNameDesk from "./assets/keystone-name-web.png";
+import brandPatternDesk from "./assets/ks-pattern-web.png";
+
 function Keystone() {
   return (
     <BaseProjectPage
@@ -35,7 +42,7 @@ function Keystone() {
     >
       <Picture
         mobileImg={keystoneLogoMobile}
-        tabletImg={""}
+        tabletImg={keystoneLogoDesk}
         desktopImg={""}
         altText={"keystone logo"}
         css={""}
@@ -51,7 +58,7 @@ function Keystone() {
 
       <Picture
         mobileImg={coffeeMugMobile}
-        tabletImg={""}
+        tabletImg={coffeeMugDesk}
         desktopImg={""}
         altText={"keystone coffee mugs"}
         css={""}
@@ -59,7 +66,7 @@ function Keystone() {
 
       <Picture
         mobileImg={tshirtMobile}
-        tabletImg={""}
+        tabletImg={tshirtDesk}
         desktopImg={""}
         altText={"keystone tshirts"}
         css={""}
@@ -67,7 +74,7 @@ function Keystone() {
 
       <Picture
         mobileImg={businessCardsMobile}
-        tabletImg={""}
+        tabletImg={businessCardsDesk}
         desktopImg={""}
         altText={"keystone business cards"}
         css={""}
@@ -75,7 +82,7 @@ function Keystone() {
 
       <Picture
         mobileImg={companyNameMobile}
-        tabletImg={""}
+        tabletImg={companyNameDesk}
         desktopImg={""}
         altText={"keystone company banner"}
         css={""}
@@ -83,7 +90,7 @@ function Keystone() {
 
       <Picture
         mobileImg={brandPatternMobile}
-        tabletImg={""}
+        tabletImg={brandPatternDesk}
         desktopImg={""}
         altText={"keystone brand pattern"}
         css={"col-span-2"}
