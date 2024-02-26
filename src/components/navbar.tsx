@@ -18,7 +18,7 @@ function HamburgerNav() {
       />
       <nav
         id="hamburgerNav"
-        className={`fixed top-0 right-0  w-3/4 sm:w-1/2  h-full z-40 ease-in-out duration-300 overflow-scroll bg-cover  ${
+        className={`fixed top-0 right-0  w-3/4 sm:w-1/2  h-full  ease-in-out duration-300 overflow-scroll bg-cover  ${
           isOpen ? " translate-x-0 transition" : " translate-x-full transition"
         }`}
         style={{ backgroundImage: `url(${sidebarBG})` }}
@@ -196,7 +196,7 @@ function Navbar() {
     };
   }, []);
   return (
-    <nav className="flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
+    <nav className="z-50 flex items-center justify-between gap-8 px-4 py-2 mb-auto bg-primary max-h-28">
       <Link to={"/"}>
         <img src={navHomeBtn} alt="home button" className="h-10 md:h-auto" />
       </Link>

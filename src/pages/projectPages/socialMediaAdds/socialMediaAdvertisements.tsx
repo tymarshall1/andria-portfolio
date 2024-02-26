@@ -20,6 +20,7 @@ function SocialMediaAdvertisements() {
         "after looking into the company and at past posts I decided to create motivational quotes, " +
         "interesting facts, and fun pictures that the company could post that is relatable to them and their clients."
       }
+      optionalGridCustom="lg:grid-cols-4 lg:items-center lg:justify-items-center"
     >
       <Picture
         mobileImg={motivationalQuoteOne}

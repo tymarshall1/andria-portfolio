@@ -4,6 +4,7 @@ type BaseProjectPageProps = {
   title: string;
   description: string;
   optionalExtraDescription?: ReactNode;
+  optionalGridCustom?: string;
   children: ReactNode;
 };
 
@@ -19,11 +20,14 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         </p>
         {props.optionalExtraDescription}
       </div>
-      <div className="grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit">
+      <div
+        className={`grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit ${props.optionalGridCustom}`}
+      >
         {props.children}
       </div>
     </div>
   );
 }
 
+//fixed top-0 bottom-0 left-0 right-0 z-50 hidden w-screen h-screen mx-auto bg-black
 export default BaseProjectPage;

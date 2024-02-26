@@ -54,6 +54,7 @@ function RehobethBeach() {
         desktopImg={""}
         altText={"rehobeth water"}
         css={"col-span-2"}
+        imgCss=""
       ></Picture>
     </BaseProjectPage>
   );

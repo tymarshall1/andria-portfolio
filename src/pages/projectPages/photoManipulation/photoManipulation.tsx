@@ -9,6 +9,15 @@ import crowsBackground from "./assets/pic-4-mobile.png";
 import buildingPerspectiveOne from "./assets/pic-7-mobile.png";
 import buildingPerspectiveTwo from "./assets/pic-8-mobile.png";
 
+// import scratchedBoyTablet from "./assets/Pic-2-Damaged.png";
+// import fixedBoyTablet from "./assets/Pic-1-Repaired.png";
+// import girlOnBeachTablet from "./assets/Pic-3-Original.png";
+// import girlOnBeachBackgroundTablet from "./assets/Pic-4-repaired.png";
+// import headPhonesBackTablet from "./assets/Pic-7-Marshall-headphones.png";
+// import crowsBackTablet from "./assets/Pic-8-dark-times.png";
+// import buildingPerspectTablet from "./assets/Pic-5-original.png";
+// import buildingPerspectfixedTablet from "./assets/Pic-6-Repaired.png";
+
 function PhotoManipulation() {
   return (
     <BaseProjectPage
@@ -48,7 +57,7 @@ function PhotoManipulation() {
         tabletImg={""}
         desktopImg={""}
         altText={"girl on beach with enhanced background"}
-        css={""}
+        css={"lg:row-start-2 lg:col-start-2 lg:col-end-3"}
       ></Picture>
 
       <Picture
@@ -56,7 +65,7 @@ function PhotoManipulation() {
         tabletImg={""}
         desktopImg={""}
         altText={"guy wearing headphones with swirl background"}
-        css={""}
+        css={"lg:row-start-1 lg:col-start-3 lg:col-end-4"}
       ></Picture>
 
       <Picture

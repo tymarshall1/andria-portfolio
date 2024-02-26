@@ -8,12 +8,12 @@ import pictureFourMobile from "./assets/pic-4-mobile.png";
 import pictureFiveMobile from "./assets/pic-5-mobile.png";
 import pictureSixMobile from "./assets/pic-6-mobile.png";
 
-import pictureOneTablet from "./assets/Picture 1 web.png";
-import pictureTwoTablet from "./assets/pic-2-web.png";
-import pictureThreeTablet from "./assets/pic-3-web.png";
-import pictureFourTablet from "./assets/pic-4-web.png";
-import pictureFiveTablet from "./assets/pic-5-web.png";
-import pictureSixTablet from "./assets/pic-6-web.png";
+// import pictureOneTablet from "./assets/Picture 1 web.png";
+// import pictureTwoTablet from "./assets/pic-2-web.png";
+// import pictureThreeTablet from "./assets/pic-3-web.png";
+// import pictureFourTablet from "./assets/pic-4-web.png";
+// import pictureFiveTablet from "./assets/pic-5-web.png";
+// import pictureSixTablet from "./assets/pic-6-web.png";
 
 function JrProm() {
   return (
@@ -27,7 +27,7 @@ function JrProm() {
     >
       <Picture
         mobileImg={pictureOneMobile}
-        tabletImg={pictureOneTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture one"}
         css={""}
@@ -35,7 +35,7 @@ function JrProm() {
 
       <Picture
         mobileImg={pictureTwoMobile}
-        tabletImg={pictureTwoTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture two"}
         css={""}
@@ -43,7 +43,7 @@ function JrProm() {
 
       <Picture
         mobileImg={pictureThreeMobile}
-        tabletImg={pictureThreeTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture three"}
         css={""}
@@ -51,7 +51,7 @@ function JrProm() {
 
       <Picture
         mobileImg={pictureFourMobile}
-        tabletImg={pictureFourTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture four"}
         css={""}
@@ -59,7 +59,7 @@ function JrProm() {
 
       <Picture
         mobileImg={pictureFiveMobile}
-        tabletImg={pictureFiveTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture five"}
         css={""}
@@ -67,7 +67,7 @@ function JrProm() {
 
       <Picture
         mobileImg={pictureSixMobile}
-        tabletImg={pictureSixTablet}
+        tabletImg={""}
         desktopImg={""}
         altText={"prom picture six"}
         css={""}

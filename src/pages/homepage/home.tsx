@@ -24,9 +24,10 @@ function Hero() {
           altText={"profile picture of andria moore."}
           css={""}
           imgCss="rounded-full h-60"
+          canFullScreen={false}
         ></Picture>
       </div>
-      <div className="grid gap-4 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
+      <div className="grid gap-4 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2 lg:items-end">
         <h2 className="text-xl font-extrabold text-white font-inter">
           Hello It's Me
         </h2>
@@ -44,17 +45,17 @@ function Hero() {
           concept development.
         </p>
         <div className="flex gap-5 mb-1">
-          <Link to={"/"}>
+          <Link to={"https://www.instagram.com/andriamooredesigner/"}>
             <img
               src={instagram}
               className="h-10"
               alt="link to instagram page"
             />
           </Link>
-          <Link to={"/"}>
+          <Link to={""}>
             <img src={google} className="h-10" alt="link to google plus page" />
           </Link>
-          <Link to={"/"}>
+          <Link to={"https://www.linkedin.com/in/andriamooredesigner/"}>
             <img src={linkedin} className="h-10" alt="link to linkedin page" />
           </Link>
         </div>

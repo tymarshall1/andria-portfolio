@@ -58,6 +58,7 @@ function Advertisements() {
         desktopImg={""}
         altText={"jobs just for you ad"}
         css={"col-span-2"}
+        imgCss={"object-stretch"}
       ></Picture>
 
       <Picture

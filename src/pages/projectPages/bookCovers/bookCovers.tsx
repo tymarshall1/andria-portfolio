@@ -15,6 +15,7 @@ function BookCovers() {
         "This projects was one of my favorites from the internship. " +
         "After submitting my designs three of the book cover illustrations were chosen to be the covers of published books."
       }
+      optionalGridCustom="lg:grid-cols-1"
     >
       <Picture
         mobileImg={artOfTalentMobile}

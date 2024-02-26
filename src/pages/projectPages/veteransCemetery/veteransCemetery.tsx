@@ -6,6 +6,14 @@ import flower from "./assets/flower.png";
 import fountain from "./assets/fountain-in-slow-motion-action.png";
 import veteransCemetery from "./assets/veterans-cemetary.png";
 import lumsPond from "./assets/lums-pond.png";
+
+import veteransCemeteryTab from "./assets/pic-5-web.png";
+import veteransFountainTab from "./assets/pic-2.png";
+import veteransDucksTab from "./assets/Pic-1-web.png";
+import veteransFlowerTab from "./assets/pic-3-web.png";
+import veteransLumsTab from "./assets/pic-4-web.png";
+import veteransDucksSwimmingTab from "./assets/pic-6-web.png";
+
 function VeteransCemetery() {
   return (
     <BaseProjectPage
@@ -18,7 +26,7 @@ function VeteransCemetery() {
     >
       <Picture
         mobileImg={veteransCemetery}
-        tabletImg={""}
+        tabletImg={veteransCemeteryTab}
         desktopImg={""}
         altText={"fountains at veterans cemetery"}
         css={"col-span-2"}
@@ -26,7 +34,7 @@ function VeteransCemetery() {
 
       <Picture
         mobileImg={fountain}
-        tabletImg={""}
+        tabletImg={veteransFountainTab}
         desktopImg={""}
         altText={"single fountain"}
         css={""}
@@ -34,7 +42,7 @@ function VeteransCemetery() {
 
       <Picture
         mobileImg={ducksSwimming}
-        tabletImg={""}
+        tabletImg={veteransDucksTab}
         desktopImg={""}
         altText={"ducks in water"}
         css={""}
@@ -42,7 +50,7 @@ function VeteransCemetery() {
 
       <Picture
         mobileImg={ducks}
-        tabletImg={""}
+        tabletImg={veteransDucksSwimmingTab}
         desktopImg={""}
         altText={"ducks in water"}
         css={"col-span-2"}
@@ -50,7 +58,7 @@ function VeteransCemetery() {
 
       <Picture
         mobileImg={flower}
-        tabletImg={""}
+        tabletImg={veteransFlowerTab}
         desktopImg={""}
         altText={"flower"}
         css={""}
@@ -58,7 +66,7 @@ function VeteransCemetery() {
 
       <Picture
         mobileImg={lumsPond}
-        tabletImg={""}
+        tabletImg={veteransLumsTab}
         desktopImg={""}
         altText={"boats at lums pond"}
         css={""}

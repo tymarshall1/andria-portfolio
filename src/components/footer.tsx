@@ -10,13 +10,13 @@ function Footer() {
         Lets Connect
       </h2>
       <div className="flex gap-3">
-        <Link to={""}>
+        <Link to={"https://www.instagram.com/andriamooredesigner/"}>
           <img src={instagram} alt="to instagram profile" className="h-6" />
         </Link>
         <Link to={""}>
           <img src={google} alt="to google plus profile" className="h-6" />
         </Link>
-        <Link to={""}>
+        <Link to={"https://www.linkedin.com/in/andriamooredesigner/"}>
           <img src={linkedin} alt="to linkedin profile" className="h-6" />
         </Link>
       </div>
