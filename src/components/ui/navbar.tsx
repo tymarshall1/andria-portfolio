@@ -166,12 +166,6 @@ function DesktopBar() {
         Portfolio
       </Link>
       <Link
-        className="text-2xl font-extrabold font-inter text-tertiaryOne "
-        to={""}
-      >
-        About Me
-      </Link>
-      <Link
         className="text-2xl font-extrabold font-inter text-[#6437A0] bg-tertiaryOne rounded px-2"
         to={"/contact"}
       >

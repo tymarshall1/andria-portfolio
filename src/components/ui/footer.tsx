@@ -13,7 +13,7 @@ function Footer() {
         <Link to={"https://www.instagram.com/andriamooredesigner/"}>
           <img src={instagram} alt="to instagram profile" className="h-6" />
         </Link>
-        <Link to={""}>
+        <Link to={"/contact"}>
           <img src={google} alt="to google plus profile" className="h-6" />
         </Link>
         <Link to={"https://www.linkedin.com/in/andriamooredesigner/"}>

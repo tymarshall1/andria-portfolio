@@ -55,7 +55,7 @@ function Hero() {
               alt="link to instagram page"
             />
           </Link>
-          <Link to={""}>
+          <Link to={"/contact"}>
             <img src={google} className="h-10" alt="link to google plus page" />
           </Link>
           <Link to={"https://www.linkedin.com/in/andriamooredesigner/"}>
