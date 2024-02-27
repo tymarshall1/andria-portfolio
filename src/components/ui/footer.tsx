@@ -1,6 +1,6 @@
-import instagram from "../assets/instagram.svg";
-import google from "../assets/googlePlus.svg";
-import linkedin from "../assets/linkedin.svg";
+import instagram from "../../assets/instagram.svg";
+import google from "../../assets/googlePlus.svg";
+import linkedin from "../../assets/linkedin.svg";
 import { Link } from "react-router-dom";
 
 function Footer() {

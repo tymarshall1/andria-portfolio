@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import ducks from "./assets/ducks-in-pond.png";
 import ducksSwimming from "./assets/ducks-swimming-in-pond-1.png";
 import flower from "./assets/flower.png";

@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import staffingOne from "./assets/best-logic-staffing-1.png";
 import staffingTwo from "./assets/bestlogic-staffing-2.png";
 import jobsForYouOne from "./assets/jobs-just-for-you-1.png";

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import loadingIcon from "../assets/loading.svg";
+import loadingIcon from "../../assets/loading.svg";
 
 type PictureButtonProps = {
   mobileImg: string;

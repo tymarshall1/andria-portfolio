@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import scratchedBoyMobile from "./assets/pic-5-mobile.png";
 import fixedBoyMobile from "./assets/pic-6-mobile.png";
 import girlOnBeachMobile from "./assets/pic-2-mobile.png";

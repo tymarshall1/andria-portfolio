@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import businessCardsMobile from "./assets/business-cards-mobile.png";
 import logoMobile from "./assets/logo-mobile.png";
 import rachaelsNameMobile from "./assets/rachaels-name-mobile.png";

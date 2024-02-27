@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import howToBuildBrand from "./assets/how-to-build-a-brand-identity.png";
 import jobsForYou from "./assets/jobs-just-for-you.png";
 import joinUs from "./assets/join-us.png";

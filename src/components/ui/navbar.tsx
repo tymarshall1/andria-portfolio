@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import hamburger from "../assets/hamburger.svg";
+import hamburger from "../../assets/hamburger.svg";
 import { useEffect, useState } from "react";
-import closeBtn from "../assets/closeBtn.svg";
-import navHomeBtn from "../assets/logo 2.svg";
-import sidebarBG from "../assets/sidebarBg.png";
+import closeBtn from "../../assets/closeBtn.svg";
+import navHomeBtn from "../../assets/logo 2.svg";
+import sidebarBG from "../../assets/sidebarBg.png";
 
 function HamburgerNav() {
   const [isOpen, setIsOpen] = useState(false);

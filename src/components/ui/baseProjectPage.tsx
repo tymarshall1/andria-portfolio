@@ -21,7 +21,7 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         {props.optionalExtraDescription}
       </div>
       <div
-        className={`grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit ${props.optionalGridCustom}`}
+        className={`grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit justify-items-center ${props.optionalGridCustom}`}
       >
         {props.children}
       </div>

@@ -1,19 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
-import brandPatternMobile from "./assets/brand-pattern-mobile.png";
-import businessCardsMobile from "./assets/business-cards-mobile.png";
-import coffeeMugMobile from "./assets/coffee-mug-mobile.png";
-import companyNameMobile from "./assets/company-name-mobile.png";
-import condoBuildingMobile from "./assets/condo-building-mobile.png";
-import keystoneLogoMobile from "./assets/keystone-logo-mobile.png";
-import tshirtMobile from "./assets/tshirt-mobile.png";
-
-import keystoneLogoDesk from "./assets/Keystone-logo-web.png";
-import coffeeMugDesk from "./assets/mugs-web.png";
-import tshirtDesk from "./assets/tshirt-web.png";
-import businessCardsDesk from "./assets/business-card-web.png";
-import companyNameDesk from "./assets/keystone-name-web.png";
-import brandPatternDesk from "./assets/ks-pattern-web.png";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 
 function Keystone() {
   return (
@@ -41,59 +27,87 @@ function Keystone() {
       }
     >
       <Picture
-        mobileImg={keystoneLogoMobile}
-        tabletImg={keystoneLogoDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_400,w_500/v1709059798/Keystone/i4n66ett75feiwto3x5u.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059798/Keystone/i4n66ett75feiwto3x5u.png"
+        }
         desktopImg={""}
         altText={"keystone logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={condoBuildingMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709060513/Keystone/ds2pf7hpkmcvoswegvlr.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709060513/Keystone/ds2pf7hpkmcvoswegvlr.png"
+        }
         desktopImg={""}
         altText={"keystone condo building"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={coffeeMugMobile}
-        tabletImg={coffeeMugDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709059787/Keystone/buycdizpfkt5twyaku2t.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709059787/Keystone/buycdizpfkt5twyaku2t.png"
+        }
         desktopImg={""}
         altText={"keystone coffee mugs"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={tshirtMobile}
-        tabletImg={tshirtDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709060591/Keystone/skki3fhwg1xlnwkaxqc0.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709060591/Keystone/skki3fhwg1xlnwkaxqc0.png"
+        }
         desktopImg={""}
         altText={"keystone tshirts"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={businessCardsMobile}
-        tabletImg={businessCardsDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_400,w_500/v1709059655/Keystone/dfesouh1ikleu5r1qboe.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059655/Keystone/dfesouh1ikleu5r1qboe.jpg"
+        }
         desktopImg={""}
         altText={"keystone business cards"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={companyNameMobile}
-        tabletImg={companyNameDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_400,w_500/v1709059766/Keystone/titgi113jlxgpzfjmupn.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059766/Keystone/titgi113jlxgpzfjmupn.png"
+        }
         desktopImg={""}
         altText={"keystone company banner"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={brandPatternMobile}
-        tabletImg={brandPatternDesk}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_200,w_1000/v1709059776/Keystone/yftlzygltbhsqjnplwym.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_300,w_2140/v1709059776/Keystone/yftlzygltbhsqjnplwym.png"
+        }
         desktopImg={""}
         altText={"keystone brand pattern"}
-        css={"col-span-2"}
+        css={"col-span-2 lg:col-span-3"}
       ></Picture>
     </BaseProjectPage>
   );

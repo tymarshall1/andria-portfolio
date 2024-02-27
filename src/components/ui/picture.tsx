@@ -1,5 +1,5 @@
 import { useState } from "react";
-import loadingIcon from "../assets/loading.svg";
+import loadingIcon from "../../assets/loading.svg";
 // import closeBtn from "../assets/closeBtn.svg";
 type PictureProps = {
   mobileImg: string;

@@ -1,5 +1,5 @@
-import BaseProjectPage from "../../../components/baseProjectPage";
-import Picture from "../../../components/picture";
+import BaseProjectPage from "../../../components/ui/baseProjectPage";
+import Picture from "../../../components/ui/picture";
 import picture1 from "./assets/pic-1-mobile.png";
 import picture2 from "./assets/pic-2-mobile.png";
 import picture3 from "./assets/pic-3-mobile.png";

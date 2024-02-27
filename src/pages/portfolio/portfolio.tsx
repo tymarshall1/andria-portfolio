@@ -1,4 +1,4 @@
-import PictureButton from "../../components/pictureButton";
+import PictureButton from "../../components/ui/pictureButton";
 import keyStone from "./assets/keystone-logo.png";
 import rachaelsBakery from "./assets/rachaels-bakery.png";
 import rocknRolls from "./assets/rock'n-rolls.png";
