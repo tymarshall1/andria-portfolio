@@ -150,11 +150,11 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
 
 function CustomerReviews() {
   return (
-    <section className="px-4 pt-8 pb-12">
+    <section className="px-1 pt-8 pb-12">
       <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter">
         My Reviews
       </h1>
-      <Carousel className="p-4">
+      <Carousel className="p-2">
         <CarouselContent>
           <CarouselItem className="md:basis-1/2">
             <CustomerReviewCard
