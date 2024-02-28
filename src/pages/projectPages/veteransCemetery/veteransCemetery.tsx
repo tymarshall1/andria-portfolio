@@ -22,19 +22,20 @@ function VeteransCemetery() {
         altText={"fountains at veterans cemetery"}
         css={"col-span-2"}
       ></Picture>
-
-      <Picture
-        mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:2,c_fill/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
-        }
-        desktopImg={""}
-        altText={"single fountain"}
-        css={"lg:row-span-1"}
-        imgCss="lg:h-full"
-      ></Picture>
+      <div>
+        <Picture
+          mobileImg={
+            "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:2,c_fill/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
+          }
+          tabletImg={
+            "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
+          }
+          desktopImg={""}
+          altText={"single fountain"}
+          css={"lg:row-span-1"}
+          imgCss="lg:h-full"
+        ></Picture>
+      </div>
 
       <Picture
         mobileImg={

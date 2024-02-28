@@ -20,12 +20,10 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         </p>
         {props.optionalExtraDescription}
       </div>
-      <div className="grid">
-        <div
-          className={`grid grid-cols-2 gap-2 lg:gap-4 mx-auto lg:grid-cols-3 max-w-[1920px] justify-items-center ${props.optionalGridCustom}`}
-        >
-          {props.children}
-        </div>
+      <div
+        className={`grid grid-cols-2 gap-2 lg:gap-4 mx-auto lg:grid-cols-3 max-w-[1920px] justify-items-center ${props.optionalGridCustom}`}
+      >
+        {props.children}
       </div>
     </div>
   );
