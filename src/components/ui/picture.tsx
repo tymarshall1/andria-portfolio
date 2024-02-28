@@ -29,6 +29,8 @@ function Picture(props: PictureProps) {
   }
 
   return (
+    //had to add flex onto these b/c safari wasn't interpreting height-100%
+    // properly, causing images to overflow their grid area.
     <picture onClick={openImage} className={`flex ${props.css}`}>
       <source srcSet={props.tabletImg} media="(min-width: 1024px)" />
       <source srcSet={props.desktopImg} media="(min-width: 1536px)" />

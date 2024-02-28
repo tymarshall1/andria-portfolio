@@ -22,7 +22,6 @@ function RockNRolls() {
         desktopImg={""}
         altText={"rock n rolls advertisement"}
         css={"col-span-2"}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
@@ -35,7 +34,6 @@ function RockNRolls() {
         desktopImg={""}
         altText={"business name"}
         css={""}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
@@ -83,7 +81,6 @@ function RockNRolls() {
         desktopImg={""}
         altText={"rock n rolls brand pattern"}
         css={"col-span-2"}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
@@ -96,7 +93,6 @@ function RockNRolls() {
         desktopImg={""}
         altText={"rock n rolls cake box design"}
         css={""}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture

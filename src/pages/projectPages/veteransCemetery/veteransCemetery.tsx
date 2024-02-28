@@ -33,7 +33,6 @@ function VeteransCemetery() {
         desktopImg={""}
         altText={"single fountain"}
         css={"lg:row-span-1"}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
@@ -46,7 +45,6 @@ function VeteransCemetery() {
         desktopImg={""}
         altText={"ducks in water"}
         css={"lg:row-span-1"}
-        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
@@ -84,6 +82,7 @@ function VeteransCemetery() {
         altText={"boats at lums pond"}
         css={""}
       ></Picture>
+
       <Picture
         mobileImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079535/Veterans%20Cemetery/dcwtey8awiluh0pvrb76.jpg"
@@ -94,7 +93,6 @@ function VeteransCemetery() {
         desktopImg={""}
         altText={"flags at veterans cemetary"}
         css={"lg:row-span-1"}
-        imgCss="lg:h-full"
       ></Picture>
     </BaseProjectPage>
   );
