@@ -1,15 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import groupMobileOne from "./assets/group-picture-mobile.png";
-import groupMobileTwo from "./assets/group-picture mobile 2.png";
-import friendsOneMobile from "./assets/picture-1-with-friend mobile.png";
-import friendsTwoMobile from "./assets/pic-with-friend-2 mobile.png";
-import friendsThreeMobile from "./assets/picture-with-friend-3 mobile.png";
-import friendsFourMobile from "./assets/nilsa-senior-prom-mobile-1.png";
-import siblingsMobile from "./assets/pictures-with-siblings mobile.png";
-import uncleMobile from "./assets/picture-with-uncle mobile.png";
-import dateOneMobile from "./assets/picture-with-date mobile.png";
-import dateTwoMobile from "./assets/nilsa-senior-prom-pictures-date-mobile.png";
 
 function SrProm() {
   return (
@@ -23,24 +13,36 @@ function SrProm() {
       }
     >
       <Picture
-        mobileImg={friendsOneMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709064158/Sr.%20Prom/tq0dkfz0ajbjsoktixti.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709064158/Sr.%20Prom/tq0dkfz0ajbjsoktixti.png"
+        }
         desktopImg={""}
         altText={"two friends prom picture"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={friendsTwoMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145191/Sr.%20Prom/fornne8t4g54boayqwxy.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145191/Sr.%20Prom/fornne8t4g54boayqwxy.png"
+        }
         desktopImg={""}
         altText={"two friends prom picture"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={uncleMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709144682/Sr.%20Prom/hhatnreugzpm41ajct02.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709144682/Sr.%20Prom/hhatnreugzpm41ajct02.png"
+        }
         desktopImg={""}
         altText={"prom picture with uncle"}
         css={""}
@@ -48,16 +50,24 @@ function SrProm() {
       ></Picture>
 
       <Picture
-        mobileImg={friendsFourMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709064157/Sr.%20Prom/lwcgzqvs91n5kzukqa8g.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709064157/Sr.%20Prom/lwcgzqvs91n5kzukqa8g.png"
+        }
         desktopImg={""}
         altText={""}
         css={"row-span-2"}
       ></Picture>
 
       <Picture
-        mobileImg={dateOneMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709144682/Sr.%20Prom/qiilnw29vegemqqhjwic.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709144682/Sr.%20Prom/qiilnw29vegemqqhjwic.png"
+        }
         desktopImg={""}
         altText={"picture with date"}
         css={""}
@@ -65,32 +75,48 @@ function SrProm() {
       ></Picture>
 
       <Picture
-        mobileImg={siblingsMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145452/Sr.%20Prom/a6a83ovh58j468w5lgts.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145452/Sr.%20Prom/a6a83ovh58j468w5lgts.png"
+        }
         desktopImg={""}
         altText={"prom picture with siblings"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={friendsThreeMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145439/Sr.%20Prom/eq6nqx0bcl2whgevmjwb.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709145439/Sr.%20Prom/eq6nqx0bcl2whgevmjwb.png"
+        }
         desktopImg={""}
         altText={"prom picture with friend"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={dateTwoMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146123/Sr.%20Prom/qry1h5a94sme23kut3cx.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146123/Sr.%20Prom/qry1h5a94sme23kut3cx.png"
+        }
         desktopImg={""}
         altText={"prom picture with date"}
         css={"row-span-2"}
       ></Picture>
 
       <Picture
-        mobileImg={groupMobileOne}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146532/Sr.%20Prom/dxkywjozwmwjy7libqjy.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146532/Sr.%20Prom/dxkywjozwmwjy7libqjy.png"
+        }
         desktopImg={""}
         altText={"group photo with friends"}
         css={""}
@@ -98,8 +124,12 @@ function SrProm() {
       ></Picture>
 
       <Picture
-        mobileImg={groupMobileTwo}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146532/Sr.%20Prom/ztccrzksoyyy5dl1clg6.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_20/v1709146532/Sr.%20Prom/ztccrzksoyyy5dl1clg6.png"
+        }
         desktopImg={""}
         altText={"group photo with friends"}
         css={""}

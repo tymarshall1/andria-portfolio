@@ -1,12 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import howToBuildBrand from "./assets/how-to-build-a-brand-identity.png";
-import jobsForYou from "./assets/jobs-just-for-you.png";
-import joinUs from "./assets/join-us.png";
-import merch from "./assets/merch.png";
-import motivationalQuote from "./assets/motivational-quote.png";
-import weAreHiringOne from "./assets/we-are-hiring.png";
-import weAreHiringTwo from "./assets/we-are-hiring-2.png";
 
 function Advertisements() {
   return (
@@ -21,57 +14,84 @@ function Advertisements() {
       }
     >
       <Picture
-        mobileImg={joinUs}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080141/Social%20Media%20Advertisements/qk8xsfvlvkhuthtjulny.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080141/Social%20Media%20Advertisements/qk8xsfvlvkhuthtjulny.png"
+        }
         desktopImg={""}
         altText={"join us ad"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={weAreHiringTwo}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080144/Social%20Media%20Advertisements/exkcmlpnwfvvdmpmif63.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080144/Social%20Media%20Advertisements/exkcmlpnwfvvdmpmif63.png"
+        }
         desktopImg={""}
         altText={"we are hiring ad"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={weAreHiringOne}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
+        }
         desktopImg={""}
         altText={"we are hiring ad"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={motivationalQuote}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/qhaairoximp153lliwo8.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_1080,w_1728/v1709080142/Social%20Media%20Advertisements/qhaairoximp153lliwo8.png"
+        }
         desktopImg={""}
         altText={"motivational Quote"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={jobsForYou}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/sfjxbzwwhtjbq9xcufud.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/sfjxbzwwhtjbq9xcufud.png"
+        }
         desktopImg={""}
         altText={"jobs just for you ad"}
         css={"col-span-2"}
-        imgCss={"object-stretch"}
       ></Picture>
 
       <Picture
-        mobileImg={merch}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_70,ar_1:1,c_fill/v1709080141/Social%20Media%20Advertisements/ejbjtranazhymjalld6o.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_70,ar_1:1,c_fill/v1709080141/Social%20Media%20Advertisements/ejbjtranazhymjalld6o.png"
+        }
         desktopImg={""}
         altText={"hat with logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={howToBuildBrand}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080141/Social%20Media%20Advertisements/rr2qmszy8swsxvvs0bho.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080141/Social%20Media%20Advertisements/rr2qmszy8swsxvvs0bho.png"
+        }
         desktopImg={""}
         altText={"how to build a brand identity"}
         css={""}
