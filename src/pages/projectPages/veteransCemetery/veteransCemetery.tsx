@@ -32,7 +32,7 @@ function VeteransCemetery() {
         }
         desktopImg={""}
         altText={"single fountain"}
-        css={""}
+        css={"lg:row-span-1"}
         imgCss="lg:h-full"
       ></Picture>
 
@@ -45,7 +45,7 @@ function VeteransCemetery() {
         }
         desktopImg={""}
         altText={"ducks in water"}
-        css={""}
+        css={"lg:row-span-1"}
         imgCss="lg:h-full"
       ></Picture>
 
@@ -93,7 +93,7 @@ function VeteransCemetery() {
         }
         desktopImg={""}
         altText={"flags at veterans cemetary"}
-        css={""}
+        css={"lg:row-span-1"}
         imgCss="lg:h-full"
       ></Picture>
     </BaseProjectPage>
