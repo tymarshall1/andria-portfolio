@@ -10,7 +10,7 @@ type BaseProjectPageProps = {
 
 function BaseProjectPage(props: BaseProjectPageProps) {
   return (
-    <div className="w-full p-8 mx-auto bg-white">
+    <div className="w-full px-2 pt-8 pb-1 mx-auto bg-white lg:px-4">
       <h1 className="mb-4 text-3xl font-extrabold text-center text-secondary font-inter">
         {props.title}
       </h1>
@@ -21,7 +21,7 @@ function BaseProjectPage(props: BaseProjectPageProps) {
         {props.optionalExtraDescription}
       </div>
       <div
-        className={`grid grid-cols-2 gap-4 mx-auto lg:grid-cols-3 max-w-fit justify-items-center ${props.optionalGridCustom}`}
+        className={`grid grid-cols-2 gap-2 lg:gap-4 mx-auto lg:grid-cols-3 max-w-fit justify-items-center ${props.optionalGridCustom}`}
       >
         {props.children}
       </div>

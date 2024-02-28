@@ -13,7 +13,7 @@ function JrProm() {
     >
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062593/Jr.%20Prom/nyvpx9b9nuidskrxgejr.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709062593/Jr.%20Prom/nyvpx9b9nuidskrxgejr.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709062593/Jr.%20Prom/nyvpx9b9nuidskrxgejr.jpg"
@@ -25,7 +25,7 @@ function JrProm() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062616/Jr.%20Prom/oxeflvtg5jr0dyln5cj9.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709062616/Jr.%20Prom/oxeflvtg5jr0dyln5cj9.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709062616/Jr.%20Prom/oxeflvtg5jr0dyln5cj9.jpg"
@@ -36,7 +36,7 @@ function JrProm() {
       ></Picture>
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062704/Jr.%20Prom/im5qlmaxgghdxjzq47tz.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_crop,g_north/v1709062704/Jr.%20Prom/im5qlmaxgghdxjzq47tz.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_crop,g_north/v1709062704/Jr.%20Prom/im5qlmaxgghdxjzq47tz.jpg"
@@ -48,7 +48,7 @@ function JrProm() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062625/Jr.%20Prom/rrrospqvpfprppufzoby.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709062625/Jr.%20Prom/rrrospqvpfprppufzoby.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:10,c_fill/v1709062625/Jr.%20Prom/rrrospqvpfprppufzoby.jpg"
@@ -60,7 +60,7 @@ function JrProm() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062664/Jr.%20Prom/s8qj98nampj8zrjhxlrz.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:10,c_crop,g_north/v1709062664/Jr.%20Prom/s8qj98nampj8zrjhxlrz.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:10,c_crop,g_north/v1709062664/Jr.%20Prom/s8qj98nampj8zrjhxlrz.jpg"
@@ -72,7 +72,7 @@ function JrProm() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062681/Jr.%20Prom/zbjksrohior2hbdfbgg1.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:10,c_fill,g_auto/v1709062681/Jr.%20Prom/zbjksrohior2hbdfbgg1.jpg"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:10,c_fill,g_auto/v1709062681/Jr.%20Prom/zbjksrohior2hbdfbgg1.jpg"

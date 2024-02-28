@@ -1,18 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import ducks from "./assets/ducks-in-pond.png";
-import ducksSwimming from "./assets/ducks-swimming-in-pond-1.png";
-import flower from "./assets/flower.png";
-import fountain from "./assets/fountain-in-slow-motion-action.png";
-import veteransCemetery from "./assets/veterans-cemetary.png";
-import lumsPond from "./assets/lums-pond.png";
-
-import veteransCemeteryTab from "./assets/pic-5-web.png";
-import veteransFountainTab from "./assets/pic-2.png";
-import veteransDucksTab from "./assets/Pic-1-web.png";
-import veteransFlowerTab from "./assets/pic-3-web.png";
-import veteransLumsTab from "./assets/pic-4-web.png";
-import veteransDucksSwimmingTab from "./assets/pic-6-web.png";
 
 function VeteransCemetery() {
   return (
@@ -25,51 +12,89 @@ function VeteransCemetery() {
       }
     >
       <Picture
-        mobileImg={veteransCemetery}
-        tabletImg={veteransCemeteryTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill/v1709079497/Veterans%20Cemetery/vs1t2gylo3lijxhwkknl.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill/v1709079497/Veterans%20Cemetery/vs1t2gylo3lijxhwkknl.jpg"
+        }
         desktopImg={""}
         altText={"fountains at veterans cemetery"}
         css={"col-span-2"}
       ></Picture>
 
       <Picture
-        mobileImg={fountain}
-        tabletImg={veteransFountainTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:2,c_fill/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079515/Veterans%20Cemetery/ydsubiuiydghb4yenrsj.jpg"
+        }
         desktopImg={""}
         altText={"single fountain"}
         css={""}
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
-        mobileImg={ducksSwimming}
-        tabletImg={veteransDucksTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:2,c_fill/v1709079601/Veterans%20Cemetery/whcxkcn6siipafmgxas2.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_5:4,c_fill/v1709079601/Veterans%20Cemetery/whcxkcn6siipafmgxas2.jpg"
+        }
         desktopImg={""}
         altText={"ducks in water"}
         css={""}
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
-        mobileImg={ducks}
-        tabletImg={veteransDucksSwimmingTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709079614/Veterans%20Cemetery/ywwtilebijjjgkatc5hi.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709079614/Veterans%20Cemetery/ywwtilebijjjgkatc5hi.jpg"
+        }
         desktopImg={""}
         altText={"ducks in water"}
         css={"col-span-2"}
       ></Picture>
 
       <Picture
-        mobileImg={flower}
-        tabletImg={veteransFlowerTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709079634/Veterans%20Cemetery/buwxhhu01d8nobfjj6ca.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709079634/Veterans%20Cemetery/buwxhhu01d8nobfjj6ca.jpg"
+        }
         desktopImg={""}
         altText={"flower"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={lumsPond}
-        tabletImg={veteransLumsTab}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill,g_auto/v1709079681/Veterans%20Cemetery/ifsm4bs5qnq1fge0jorj.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill,g_auto/v1709079681/Veterans%20Cemetery/ifsm4bs5qnq1fge0jorj.jpg"
+        }
         desktopImg={""}
         altText={"boats at lums pond"}
         css={""}
+      ></Picture>
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079535/Veterans%20Cemetery/dcwtey8awiluh0pvrb76.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill,g_auto/v1709079535/Veterans%20Cemetery/dcwtey8awiluh0pvrb76.jpg"
+        }
+        desktopImg={""}
+        altText={"flags at veterans cemetary"}
+        css={""}
+        imgCss="lg:h-full"
       ></Picture>
     </BaseProjectPage>
   );
