@@ -1,20 +1,6 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
 
-import pictureOneMobile from "./assets/pic-1--mobile.png";
-import pictureTwoMobile from "./assets/pic-2-mobile.png";
-import pictureThreeMobile from "./assets/pic-3-mobile.png";
-import pictureFourMobile from "./assets/pic-4-mobile.png";
-import pictureFiveMobile from "./assets/pic-5-mobile.png";
-import pictureSixMobile from "./assets/pic-6-mobile.png";
-
-// import pictureOneTablet from "./assets/Picture 1 web.png";
-// import pictureTwoTablet from "./assets/pic-2-web.png";
-// import pictureThreeTablet from "./assets/pic-3-web.png";
-// import pictureFourTablet from "./assets/pic-4-web.png";
-// import pictureFiveTablet from "./assets/pic-5-web.png";
-// import pictureSixTablet from "./assets/pic-6-web.png";
-
 function JrProm() {
   return (
     <BaseProjectPage
@@ -26,50 +12,73 @@ function JrProm() {
       }
     >
       <Picture
-        mobileImg={pictureOneMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062593/Jr.%20Prom/nyvpx9b9nuidskrxgejr.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062593/Jr.%20Prom/nyvpx9b9nuidskrxgejr.jpg"
+        }
         desktopImg={""}
         altText={"prom picture one"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={pictureTwoMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062616/Jr.%20Prom/oxeflvtg5jr0dyln5cj9.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062616/Jr.%20Prom/oxeflvtg5jr0dyln5cj9.jpg"
+        }
         desktopImg={""}
         altText={"prom picture two"}
         css={""}
       ></Picture>
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062704/Jr.%20Prom/im5qlmaxgghdxjzq47tz.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062704/Jr.%20Prom/im5qlmaxgghdxjzq47tz.jpg"
+        }
+        desktopImg={""}
+        altText={"prom picture six"}
+        css={""}
+      ></Picture>
 
       <Picture
-        mobileImg={pictureThreeMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062625/Jr.%20Prom/rrrospqvpfprppufzoby.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062625/Jr.%20Prom/rrrospqvpfprppufzoby.jpg"
+        }
         desktopImg={""}
         altText={"prom picture three"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={pictureFourMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062664/Jr.%20Prom/s8qj98nampj8zrjhxlrz.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062664/Jr.%20Prom/s8qj98nampj8zrjhxlrz.jpg"
+        }
         desktopImg={""}
         altText={"prom picture four"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={pictureFiveMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062681/Jr.%20Prom/zbjksrohior2hbdfbgg1.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709062681/Jr.%20Prom/zbjksrohior2hbdfbgg1.jpg"
+        }
         desktopImg={""}
         altText={"prom picture five"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={pictureSixMobile}
-        tabletImg={""}
-        desktopImg={""}
-        altText={"prom picture six"}
         css={""}
       ></Picture>
     </BaseProjectPage>

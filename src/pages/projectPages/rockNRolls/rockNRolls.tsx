@@ -1,22 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import advertMobile from "./assets/advert-mobile.png";
-import brandPatternMobile from "./assets/brand-pattern-mobile.png";
-import businessCardMobile from "./assets/bus-card-mobile.png";
-import cakeBoxMobile from "./assets/cakebox-mobile.png";
-import businessNameMobile from "./assets/bus-name-mobile.png";
-import coffeeCupMobile from "./assets/coffee-cup-mobile.png";
-import loyaltyCardMobile from "./assets/loyalty-cards-mobile.png";
-import takeHomeBagMobile from "./assets/take-home-bag-mobile.png";
-
-import advertTablet from "./assets/RNR-Ad-web.png";
-import brandPatternTablet from "./assets/RNR-Pattern-web.png";
-import businessCardTablet from "./assets/RNR-bus-card-web.png";
-import cakeBoxTablet from "./assets/RNR-cake-boxes-web.png";
-// import businessNameTablet from "./assets/";
-import coffeeCupTablet from "./assets/RNR-cups-web.png";
-import loyaltyCardTablet from "./assets/RNR-loyalty-cards-web.png";
-import takeHomeBagTablet from "./assets/RNR-bags-web.png";
 
 function RockNRolls() {
   return (
@@ -30,66 +13,113 @@ function RockNRolls() {
       }
     >
       <Picture
-        mobileImg={brandPatternMobile}
-        tabletImg={brandPatternTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_500,w_1000/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_1400/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
+        }
         desktopImg={""}
-        altText={"rock n rolls brand pattern"}
+        altText={"rock n rolls advertisement"}
         css={"col-span-2"}
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
-        mobileImg={businessNameMobile}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_611,w_700/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
+        }
         desktopImg={""}
         altText={"business name"}
         css={""}
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
-        mobileImg={businessCardMobile}
-        tabletImg={businessCardTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061908/Rock%E2%80%99n%20Rolls%20Bakery/yg9n7mpvhkyng7ivlt0a.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061908/Rock%E2%80%99n%20Rolls%20Bakery/yg9n7mpvhkyng7ivlt0a.jpg"
+        }
         desktopImg={""}
         altText={"rock n rolls business cards"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={loyaltyCardMobile}
-        tabletImg={loyaltyCardTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061954/Rock%E2%80%99n%20Rolls%20Bakery/trx0kzezoxfhv0nshlys.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061954/Rock%E2%80%99n%20Rolls%20Bakery/trx0kzezoxfhv0nshlys.png"
+        }
         desktopImg={""}
         altText={"rock n rolls loyalty cards"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={coffeeCupMobile}
-        tabletImg={coffeeCupTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
+        }
         desktopImg={""}
         altText={"rock n rolls coffee cups"}
         css={""}
       ></Picture>
-
       <Picture
-        mobileImg={advertMobile}
-        tabletImg={advertTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_500,w_1000/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_1400/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
+        }
         desktopImg={""}
-        altText={"rock n rolls advertisement"}
+        altText={"rock n rolls brand pattern"}
         css={"col-span-2"}
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
-        mobileImg={cakeBoxMobile}
-        tabletImg={cakeBoxTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061895/Rock%E2%80%99n%20Rolls%20Bakery/fdy5efrkwni7yqmfnsed.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709061895/Rock%E2%80%99n%20Rolls%20Bakery/fdy5efrkwni7yqmfnsed.png"
+        }
         desktopImg={""}
         altText={"rock n rolls cake box design"}
+        css={""}
+        imgCss="lg:h-full"
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061939/Rock%E2%80%99n%20Rolls%20Bakery/h0uhetld9rxkcfrdgnmj.gif"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_600/v1709061939/Rock%E2%80%99n%20Rolls%20Bakery/h0uhetld9rxkcfrdgnmj.gif"
+        }
+        desktopImg={""}
+        altText={"rock n rolls take home bag"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={takeHomeBagMobile}
-        tabletImg={takeHomeBagTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_600/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
+        }
         desktopImg={""}
-        altText={"rock n rolls take home bag"}
+        altText={"rock n rolls sign"}
         css={""}
       ></Picture>
     </BaseProjectPage>

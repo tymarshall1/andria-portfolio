@@ -1,20 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import businessCardsMobile from "./assets/business-cards-mobile.png";
-import logoMobile from "./assets/logo-mobile.png";
-import rachaelsNameMobile from "./assets/rachaels-name-mobile.png";
-import mugsMobile from "./assets/rachaels-coffee-cups-moblie.png";
-import bagsMobile from "./assets/rachaels-take-home-bags-mobile.png";
-import tshirtsMobileOne from "./assets/tshirt-design-1-rachael-mobile.png";
-import tshirtsMobileTwo from "./assets/tshirt-design-2-rachael-mobile.png";
-
-import businessCardsTablet from "./assets/RB-bus-cards-web.png";
-import logoTablet from "./assets/RB-logo-web.png";
-import rachaelsNameTablet from "./assets/RB-Name-logo-web.png";
-import mugsTablet from "./assets/RB-cups-web.png";
-import bagsTablet from "./assets/RB-bags-web.png";
-import tshirtsTabletOne from "./assets/RB-tshirt-1-web.png";
-import tshirtsTabletTwo from "./assets/RB-tshirts-2-web.png";
 
 function RachaelsBakery() {
   return (
@@ -27,56 +12,84 @@ function RachaelsBakery() {
       }
     >
       <Picture
-        mobileImg={rachaelsNameMobile}
-        tabletImg={rachaelsNameTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fit,h_400/v1709071039/Rachael%E2%80%99s%20Bakery/wbbe0yowsnfkfaexnxqu.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/e_trim/c_lpad,h_400/v1709071039/Rachael%E2%80%99s%20Bakery/wbbe0yowsnfkfaexnxqu.png"
+        }
         desktopImg={""}
         altText={"Rachaels name banner"}
         css={"col-span-2"}
       ></Picture>
 
       <Picture
-        mobileImg={logoMobile}
-        tabletImg={logoTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709059968/Rachael%E2%80%99s%20Bakery/lfenmnw1n33fzls0ddka.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709059968/Rachael%E2%80%99s%20Bakery/lfenmnw1n33fzls0ddka.png"
+        }
         desktopImg={""}
         altText={"Rachaels logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={businessCardsMobile}
-        tabletImg={businessCardsTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061644/Rachael%E2%80%99s%20Bakery/vjlakfc9bsucxu2yrrlq.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061644/Rachael%E2%80%99s%20Bakery/vjlakfc9bsucxu2yrrlq.png"
+        }
         desktopImg={""}
         altText={"Rachaels Business cards"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={mugsMobile}
-        tabletImg={mugsTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709061625/Rachael%E2%80%99s%20Bakery/nl2zsq393wbsoan5opvf.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709061625/Rachael%E2%80%99s%20Bakery/nl2zsq393wbsoan5opvf.png"
+        }
         desktopImg={""}
         altText={"Rachaels mug design "}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={bagsMobile}
-        tabletImg={bagsTablet}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061660/Rachael%E2%80%99s%20Bakery/jtbnnhr7snhvyj1m3spn.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061660/Rachael%E2%80%99s%20Bakery/jtbnnhr7snhvyj1m3spn.png"
+        }
         desktopImg={""}
         altText={"Rachaels bags design"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={tshirtsMobileOne}
-        tabletImg={tshirtsTabletOne}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709061679/Rachael%E2%80%99s%20Bakery/cnd9zwjfksrsak9iinls.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709061679/Rachael%E2%80%99s%20Bakery/cnd9zwjfksrsak9iinls.png"
+        }
         desktopImg={""}
         altText={"Rachaels t-shirt designs"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={tshirtsMobileTwo}
-        tabletImg={tshirtsTabletTwo}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_400,w_500/v1709061679/Rachael%E2%80%99s%20Bakery/rfc8sf0x05rszqno1nl3.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709061679/Rachael%E2%80%99s%20Bakery/rfc8sf0x05rszqno1nl3.png"
+        }
         desktopImg={""}
         altText={"Rachaels t-shirt designs"}
         css={""}
