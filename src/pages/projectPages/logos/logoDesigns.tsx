@@ -27,7 +27,7 @@ function LogoDesigns() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10,v1709078673/Logo%20Design%E2%80%99s/y5nnyqbuuix7pkavjkaq.png"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078673/Logo%20Design%E2%80%99s/y5nnyqbuuix7pkavjkaq.png"
         }
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10,ar_1:1,c_fill,g_auto/v1709078673/Logo%20Design%E2%80%99s/y5nnyqbuuix7pkavjkaq.png"
