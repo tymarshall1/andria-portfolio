@@ -33,7 +33,7 @@ function VeteransCemetery() {
         desktopImg={""}
         altText={"single fountain"}
         css={"lg:row-span-1"}
-        imgCss=""
+        imgCss="lg:h-full"
       ></Picture>
 
       <Picture
