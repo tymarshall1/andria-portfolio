@@ -1,10 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import picture1 from "./assets/pic-1-mobile.png";
-import picture2 from "./assets/pic-2-mobile.png";
-import picture3 from "./assets/pic-3-mobile.png";
-import picture4 from "./assets/pic-4-mobile.png";
-import picture5 from "./assets/pic-5-mobile.png";
 
 function RehobethBeach() {
   return (
@@ -17,40 +12,70 @@ function RehobethBeach() {
       }
     >
       <Picture
-        mobileImg={picture1}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080036/Rehoboth%20Beach/l8bik26zerjyak5fouwr.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709080036/Rehoboth%20Beach/l8bik26zerjyak5fouwr.jpg"
+        }
         desktopImg={""}
         altText={"rehobeth grass"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={picture2}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080042/Rehoboth%20Beach/q6fbj1rcjnabtypcwgju.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709080042/Rehoboth%20Beach/q6fbj1rcjnabtypcwgju.jpg"
+        }
         desktopImg={""}
         altText={"rehobeth grass"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={picture3}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080049/Rehoboth%20Beach/clrrn99dzmvja3s4ikfc.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709080049/Rehoboth%20Beach/clrrn99dzmvja3s4ikfc.jpg"
+        }
         desktopImg={""}
         altText={"rehobeth dusk"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={picture4}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080020/Rehoboth%20Beach/ztlsjhgeto02bguxmijc.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:10,c_fill/v1709080020/Rehoboth%20Beach/ztlsjhgeto02bguxmijc.jpg"
+        }
         desktopImg={""}
         altText={"rehobeth silhouette"}
         css={""}
       ></Picture>
-
       <Picture
-        mobileImg={picture5}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080028/Rehoboth%20Beach/cc47jkanqxaoxsy7gbxr.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:5,c_fill/v1709080028/Rehoboth%20Beach/cc47jkanqxaoxsy7gbxr.jpg"
+        }
+        desktopImg={""}
+        altText={"rehobeth trees silhouette"}
+        css={"col-span-2"}
+      ></Picture>
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080085/Rehoboth%20Beach/etpe7twud7c9m7dp6a5e.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill/v1709080085/Rehoboth%20Beach/etpe7twud7c9m7dp6a5e.jpg"
+        }
         desktopImg={""}
         altText={"rehobeth water"}
         css={"col-span-2"}

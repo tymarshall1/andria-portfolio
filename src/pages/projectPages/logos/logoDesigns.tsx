@@ -1,15 +1,5 @@
 import BaseProjectPage from "../../../components/ui/baseProjectPage";
 import Picture from "../../../components/ui/picture";
-import staffingOne from "./assets/best-logic-staffing-1.png";
-import staffingTwo from "./assets/bestlogic-staffing-2.png";
-import jobsForYouOne from "./assets/jobs-just-for-you-1.png";
-import jobsForYouTwo from "./assets/jobs-just-for-you-2.png";
-import nursingJourneyOne from "./assets/nursing-journey-1.png";
-import nursingJourneyTwo from "./assets/nursing-journey-2.png";
-import passionateSoccerOne from "./assets/passionate-soccer-coach-1.png";
-import passionateSoccerTwo from "./assets/passionate-soccer-coach-2.png";
-import resumax from "./assets/resumax.png";
-import rnnation from "./assets/rnnation.png";
 
 function LogoDesigns() {
   return (
@@ -21,82 +11,123 @@ function LogoDesigns() {
         "I worked with a range of clients including a staffing agency, online nursing site, job searching site, " +
         "and a soccer coaching blog. Below are my a few of my favorite designs."
       }
+      optionalGridCustom="lg:grid-cols-4 items-center"
     >
       <Picture
-        mobileImg={staffingOne}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078421/Logo%20Design%E2%80%99s/ee5ykqyica5ginw5qsvd.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078421/Logo%20Design%E2%80%99s/ee5ykqyica5ginw5qsvd.jpg"
+        }
         desktopImg={""}
         altText={"bestlogic logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={staffingTwo}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10,v1709078673/Logo%20Design%E2%80%99s/y5nnyqbuuix7pkavjkaq.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10,ar_1:1,c_fill,g_auto/v1709078673/Logo%20Design%E2%80%99s/y5nnyqbuuix7pkavjkaq.png"
+        }
         desktopImg={""}
         altText={"bestlogic logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={jobsForYouOne}
-        tabletImg={""}
-        desktopImg={""}
-        altText={"jobs for you logo"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={jobsForYouTwo}
-        tabletImg={""}
-        desktopImg={""}
-        altText={"jobs for you logo"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={nursingJourneyOne}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078463/Logo%20Design%E2%80%99s/ekgn68jkzutc9thbjkvy.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078463/Logo%20Design%E2%80%99s/ekgn68jkzutc9thbjkvy.jpg"
+        }
         desktopImg={""}
         altText={"nursing journey logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={nursingJourneyTwo}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078965/Logo%20Design%E2%80%99s/b90iyhql2l0sljt0aj6h.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078965/Logo%20Design%E2%80%99s/b90iyhql2l0sljt0aj6h.png"
+        }
         desktopImg={""}
         altText={"nursing journey logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={passionateSoccerOne}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078433/Logo%20Design%E2%80%99s/cz0jnmvj9ajdkfhxs7el.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_crop/g_south/v1709078433/Logo%20Design%E2%80%99s/cz0jnmvj9ajdkfhxs7el.jpg"
+        }
+        desktopImg={""}
+        altText={"jobs for you logo"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078720/Logo%20Design%E2%80%99s/vtrbscittcjnkbp2ufd4.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10,ar_1:1,c_fill/v1709078720/Logo%20Design%E2%80%99s/vtrbscittcjnkbp2ufd4.png"
+        }
+        desktopImg={""}
+        altText={"jobs for you logo"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078474/Logo%20Design%E2%80%99s/cdoxu3uo32miupo3luab.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078474/Logo%20Design%E2%80%99s/cdoxu3uo32miupo3luab.jpg"
+        }
         desktopImg={""}
         altText={"passionate soccer logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={passionateSoccerTwo}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078965/Logo%20Design%E2%80%99s/yjv0mjyzoytk98qugfgt.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_10/v1709078965/Logo%20Design%E2%80%99s/yjv0mjyzoytk98qugfgt.png"
+        }
         desktopImg={""}
         altText={"passionate soccer logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={resumax}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078512/Logo%20Design%E2%80%99s/tiqifufxm8ofzsdnk2ig.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078512/Logo%20Design%E2%80%99s/tiqifufxm8ofzsdnk2ig.png"
+        }
         desktopImg={""}
         altText={"resumax logo"}
         css={""}
       ></Picture>
 
       <Picture
-        mobileImg={rnnation}
-        tabletImg={""}
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078526/Logo%20Design%E2%80%99s/z5vhsqafrobwsmy09bwf.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709078526/Logo%20Design%E2%80%99s/z5vhsqafrobwsmy09bwf.png"
+        }
         desktopImg={""}
         altText={"rn nation logo"}
         css={""}
