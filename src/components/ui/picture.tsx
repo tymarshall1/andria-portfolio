@@ -29,7 +29,7 @@ function Picture(props: PictureProps) {
   }
 
   return (
-    <picture onClick={openImage} className={`${props.css}`}>
+    <picture onClick={openImage} className={`flex ${props.css}`}>
       <source srcSet={props.tabletImg} media="(min-width: 1024px)" />
       <source srcSet={props.desktopImg} media="(min-width: 1536px)" />
       {isLoading && (
