@@ -33,7 +33,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059798/Keystone/i4n66ett75feiwto3x5u.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709059798/Keystone/i4n66ett75feiwto3x5u.png"
+        }
         altText={"keystone logo"}
         css={""}
       ></Picture>
@@ -45,7 +47,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709060513/Keystone/ds2pf7hpkmcvoswegvlr.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709060513/Keystone/ds2pf7hpkmcvoswegvlr.png"
+        }
         altText={"keystone condo building"}
         css={""}
       ></Picture>
@@ -57,7 +61,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709059787/Keystone/buycdizpfkt5twyaku2t.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709059787/Keystone/buycdizpfkt5twyaku2t.png"
+        }
         altText={"keystone coffee mugs"}
         css={""}
       ></Picture>
@@ -69,7 +75,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_700/v1709060591/Keystone/skki3fhwg1xlnwkaxqc0.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709060591/Keystone/skki3fhwg1xlnwkaxqc0.png"
+        }
         altText={"keystone tshirts"}
         css={""}
       ></Picture>
@@ -81,7 +89,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059655/Keystone/dfesouh1ikleu5r1qboe.jpg"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709059655/Keystone/dfesouh1ikleu5r1qboe.jpg"
+        }
         altText={"keystone business cards"}
         css={""}
       ></Picture>
@@ -93,7 +103,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_600,w_700/v1709059766/Keystone/titgi113jlxgpzfjmupn.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709059766/Keystone/titgi113jlxgpzfjmupn.png"
+        }
         altText={"keystone company banner"}
         css={""}
       ></Picture>
@@ -105,7 +117,9 @@ function Keystone() {
         tabletImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/c_scale,h_300,w_2140/v1709059776/Keystone/yftlzygltbhsqjnplwym.png"
         }
-        desktopImg={""}
+        desktopImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709059776/Keystone/yftlzygltbhsqjnplwym.png"
+        }
         altText={"keystone brand pattern"}
         css={"col-span-2 lg:col-span-3"}
       ></Picture>

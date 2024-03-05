@@ -1,6 +1,7 @@
 import { useState } from "react";
 import loadingIcon from "../../assets/loading.svg";
-// import closeBtn from "../assets/closeBtn.svg";
+import ImageDetail from "./imageDetail";
+
 type PictureProps = {
   mobileImg: string;
   tabletImg: string;
@@ -49,22 +50,10 @@ function Picture(props: PictureProps) {
       />
 
       {isFullscreen && props.canFullScreen && (
-        <div className="fixed top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-screen text-black bg-primary">
-          {/* <img
-            src={closeBtn}
-            alt="close"
-            className="w-10 h-10 mb-5 mr-5"
-            onClick={closeImage}
-          /> */}
-          <div className="m-2 bg-white ">
-            <img
-              src={props.tabletImg}
-              className="p-4 opacity-1"
-              alt=""
-              onClick={closeImage}
-            />
-          </div>
-        </div>
+        <ImageDetail
+          desktopImg={props.desktopImg}
+          closeImage={closeImage}
+        ></ImageDetail>
       )}
     </picture>
   );
