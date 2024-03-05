@@ -1,6 +1,5 @@
 import { useState } from "react";
 import loadingIcon from "../../assets/loading.svg";
-import ImageDetail from "./imageDetail";
 
 type PictureProps = {
   mobileImg: string;
@@ -18,21 +17,11 @@ Picture.defaultProps = {
 
 function Picture(props: PictureProps) {
   const [isLoading, setIsLoading] = useState(true);
-  const [isFullscreen, setIsFullscreen] = useState(false);
-
-  function openImage() {
-    setIsFullscreen(true);
-  }
-
-  function closeImage(e: { stopPropagation: () => void }) {
-    setIsFullscreen(false);
-    e.stopPropagation();
-  }
 
   return (
     //had to add flex onto these b/c safari wasn't interpreting height-100%
     // properly, causing images to overflow their grid area.
-    <picture onClick={openImage} className={`flex ${props.css}`}>
+    <picture className={`flex ${props.css}`}>
       <source srcSet={props.tabletImg} media="(min-width: 1024px)" />
       <source srcSet={props.desktopImg} media="(min-width: 1536px)" />
       {isLoading && (
@@ -48,13 +37,6 @@ function Picture(props: PictureProps) {
           props.imgCss === undefined ? "" : props.imgCss
         }`}
       />
-
-      {isFullscreen && props.canFullScreen && (
-        <ImageDetail
-          tabletImg={props.tabletImg}
-          closeImage={closeImage}
-        ></ImageDetail>
-      )}
     </picture>
   );
 }
