@@ -51,7 +51,7 @@ function Picture(props: PictureProps) {
 
       {isFullscreen && props.canFullScreen && (
         <ImageDetail
-          desktopImg={props.desktopImg}
+          tabletImg={props.tabletImg}
           closeImage={closeImage}
         ></ImageDetail>
       )}

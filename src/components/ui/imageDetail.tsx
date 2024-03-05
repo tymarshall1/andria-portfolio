@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 type ImageDetailProps = {
-  desktopImg: string;
+  tabletImg: string;
   closeImage: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 };
 
@@ -22,7 +22,7 @@ function ImageDetail(props: ImageDetailProps) {
   return (
     <div className="fixed top-0 left-0 z-40 flex flex-col items-center justify-center w-screen h-screen text-black bg-primary">
       <div className="flex flex-col lg:max-w-3xl md:max-w-xl">
-        <img src={props.desktopImg} className="flex-1" alt="" />
+        <img src={props.tabletImg} className="flex-1" alt="" />
         <button
           className="px-4 py-2 mx-2 mt-4 text-lg font-semibold rounded md:mx-0 bg-tertiaryOne"
           onClick={(e) => {
