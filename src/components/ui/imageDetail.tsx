@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
-function ImageDetail(props) {
+
+type ImageDetailProps = {
+  desktopImg: string;
+  closeImage: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+};
+
+function ImageDetail(props: ImageDetailProps) {
   const [disableScroll, setDisableScroll] = useState(true);
 
   useEffect(() => {
@@ -10,7 +16,6 @@ function ImageDetail(props) {
     }
 
     return () => {
-      // Reset overflow property when component unmounts
       document.body.style.overflow = "auto";
     };
   }, [disableScroll]);
