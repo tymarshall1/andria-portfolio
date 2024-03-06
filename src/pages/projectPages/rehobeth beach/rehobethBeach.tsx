@@ -69,17 +69,6 @@ function RehobethBeach() {
         altText={"rehobeth trees silhouette"}
         css={"col-span-2"}
       ></Picture>
-      <Picture
-        mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080085/Rehoboth%20Beach/etpe7twud7c9m7dp6a5e.jpg"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_16:9,c_fill/v1709080085/Rehoboth%20Beach/etpe7twud7c9m7dp6a5e.jpg"
-        }
-        desktopImg={""}
-        altText={"rehobeth water"}
-        css={"col-span-2"}
-      ></Picture>
     </BaseProjectPage>
   );
 }

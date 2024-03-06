@@ -87,18 +87,6 @@ function SocialMediaAdvertisements() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080837/Advertisements/rloieaeaj6ztl4hykn3k.png"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080837/Advertisements/rloieaeaj6ztl4hykn3k.png"
-        }
-        desktopImg={""}
-        altText={"in need of a job ad"}
-        css={"col-span-2"}
-      ></Picture>
-
-      <Picture
-        mobileImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/f_auto,q_50/v1709080972/Advertisements/nsyryrcdpllibtvzjgm9.png"
         }
         tabletImg={

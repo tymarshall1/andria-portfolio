@@ -14,22 +14,34 @@ function RockNRolls() {
     >
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_500,w_1000/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
         }
         tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_1400/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
         }
         desktopImg={""}
-        altText={"rock n rolls advertisement"}
-        css={"col-span-2"}
+        altText={"rock n rolls sign"}
+        css={""}
       ></Picture>
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:9,c_fill,g_auto/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
         }
         tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_611,w_700/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:9,c_fill,g_auto/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
+        }
+        desktopImg={""}
+        altText={"rock n rolls coffee cups"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:9,c_fill/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_12:9,c_fill/v1709061855/Rock%E2%80%99n%20Rolls%20Bakery/ktm5bgbvykjt6zblpao0.png"
         }
         desktopImg={""}
         altText={"business name"}
@@ -62,29 +74,6 @@ function RockNRolls() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_600,w_700/v1709061869/Rock%E2%80%99n%20Rolls%20Bakery/yaomimmkz2jfr5pse8gf.jpg"
-        }
-        desktopImg={""}
-        altText={"rock n rolls coffee cups"}
-        css={""}
-      ></Picture>
-      <Picture
-        mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_500,w_1000/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_1400/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
-        }
-        desktopImg={""}
-        altText={"rock n rolls brand pattern"}
-        css={"col-span-2"}
-      ></Picture>
-
-      <Picture
-        mobileImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061895/Rock%E2%80%99n%20Rolls%20Bakery/fdy5efrkwni7yqmfnsed.png"
         }
         tabletImg={
@@ -109,14 +98,27 @@ function RockNRolls() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_500/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_500,w_1000,g_south/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
         }
         tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/h_400,w_600/v1709061919/Rock%E2%80%99n%20Rolls%20Bakery/aqj0ily1thpgdwabu5y0.jpg"
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/c_fill,h_600,w_1400/v1709062050/Rock%E2%80%99n%20Rolls%20Bakery/pujnfrqohdexr3z80evg.jpg"
         }
         desktopImg={""}
-        altText={"rock n rolls sign"}
-        css={""}
+        altText={"rock n rolls advertisement"}
+        css={"col-span-2"}
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:1,c_fill/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_3:1,c_fill/v1709061929/Rock%E2%80%99n%20Rolls%20Bakery/thu1u74dfie5gmbydbnc.png"
+        }
+        desktopImg={""}
+        altText={"rock n rolls brand pattern"}
+        css={"col-span-2 lg:col-span-3"}
+        imgCss="lg:w-full"
       ></Picture>
     </BaseProjectPage>
   );

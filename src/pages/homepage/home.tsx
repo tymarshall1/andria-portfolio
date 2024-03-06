@@ -185,6 +185,15 @@ function CustomerReviews() {
               reviewAuthor="-Rachael Berg"
             />
           </CarouselItem>
+          <CarouselItem className="md:basis-1/2 ">
+            <CustomerReviewCard
+              review="Andria has absolutely great customer service! She was kind, patient and responded in ample time.  
+              She did an amazing job on making a logo for my new business! 
+              She really impressed me with her ability to send multiple designs in such a quick manner! 
+              I will definitely be reaching out soon for more of my graphic design needs:)"
+              reviewAuthor="-Cheyenne Frieze"
+            />
+          </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />

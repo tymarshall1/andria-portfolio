@@ -27,30 +27,6 @@ function Advertisements() {
 
       <Picture
         mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080144/Social%20Media%20Advertisements/exkcmlpnwfvvdmpmif63.png"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/ar_1:1,c_fill/v1709080144/Social%20Media%20Advertisements/exkcmlpnwfvvdmpmif63.png"
-        }
-        desktopImg={""}
-        altText={"we are hiring ad"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
-        }
-        desktopImg={""}
-        altText={"we are hiring ad"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={
           "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/qhaairoximp153lliwo8.png"
         }
         tabletImg={
@@ -58,6 +34,18 @@ function Advertisements() {
         }
         desktopImg={""}
         altText={"motivational Quote"}
+        css={""}
+      ></Picture>
+
+      <Picture
+        mobileImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
+        }
+        tabletImg={
+          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080142/Social%20Media%20Advertisements/cl80krkg8hy7ks738fl4.jpg"
+        }
+        desktopImg={""}
+        altText={"we are hiring ad"}
         css={""}
       ></Picture>
 
