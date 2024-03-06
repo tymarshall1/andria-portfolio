@@ -10,7 +10,7 @@ function ProjectChanger() {
   const nextProjectIndex = projectLinkIndex >= 13 ? null : projectLinkIndex + 1;
 
   return (
-    <div className="flex justify-between mt-2 md:mt-4">
+    <div className="flex justify-between mt-2 md:mt-4 max-w-[1920px] mx-auto">
       <Link
         aria-hidden={prevProjectIndex ? false : true}
         className={`w-40 p-2 text-base font-black text-center bg-tertiaryOne font-inter text-primary ${
