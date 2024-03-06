@@ -8,7 +8,7 @@ import advertisement from "./assets/advertisement.svg";
 import photoManip from "./assets/photoManip.svg";
 import branding from "./assets/branding.svg";
 import { Link } from "react-router-dom";
-import test from "../../assets/test.txt";
+import cv from "../../assets/Resume and Coverletter.pdf";
 import {
   Carousel,
   CarouselContent,
@@ -63,8 +63,8 @@ function Hero() {
           </Link>
         </div>
         <a
-          href={test}
-          download="test"
+          href={cv}
+          download="Andria Moore resume"
           className="p-2 mt-2 bg-tertiaryOne max-w-[170px] rounded-lg font-inter text-primary font-black text-base mb-6 text-center max-h-10"
         >
           Download My CV
