@@ -69,6 +69,7 @@ function PhotoManipulation() {
         desktopImg={""}
         altText={"guy wearing headphones with swirl background"}
         css={"lg:row-start-1 lg:col-start-3 lg:col-end-4"}
+        imgCss="lg:w-full"
       ></Picture>
 
       <Picture
