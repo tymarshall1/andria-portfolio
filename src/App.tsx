@@ -1,11 +1,11 @@
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/ui/navbar";
 import Footer from "./components/ui/footer";
 import { routes } from "./routes";
 function App() {
   return (
     <main className="grid min-h-screen bg-primary">
-      <HashRouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           {routes.map((route) => {
@@ -19,7 +19,7 @@ function App() {
           })}
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </main>
   );
 }

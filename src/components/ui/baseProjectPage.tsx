@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-
+import ProjectChanger from "./projectChanger";
 type BaseProjectPageProps = {
   title: string;
   description: string;
@@ -25,9 +25,9 @@ function BaseProjectPage(props: BaseProjectPageProps) {
       >
         {props.children}
       </div>
+      <ProjectChanger />
     </div>
   );
 }
 
-//fixed top-0 bottom-0 left-0 right-0 z-50 hidden w-screen h-screen mx-auto bg-black
 export default BaseProjectPage;
