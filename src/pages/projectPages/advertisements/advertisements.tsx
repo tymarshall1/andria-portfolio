@@ -70,19 +70,7 @@ function Advertisements() {
         }
         desktopImg={""}
         altText={"hat with logo"}
-        css={""}
-      ></Picture>
-
-      <Picture
-        mobileImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080141/Social%20Media%20Advertisements/rr2qmszy8swsxvvs0bho.png"
-        }
-        tabletImg={
-          "https://res.cloudinary.com/dxwqyspsy/image/upload/v1709080141/Social%20Media%20Advertisements/rr2qmszy8swsxvvs0bho.png"
-        }
-        desktopImg={""}
-        altText={"how to build a brand identity"}
-        css={""}
+        css={"row-start-2"}
       ></Picture>
     </BaseProjectPage>
   );
