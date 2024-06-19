@@ -150,11 +150,11 @@ function CustomerReviewCard(props: CustomerReviewCardProps) {
 
 function CustomerReviews() {
   return (
-    <section className="px-1 pt-8 pb-12">
+    <section className="px-1 pt-8 pb-12 ">
       <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter">
         My Reviews
       </h1>
-      <Carousel className="p-2">
+      <Carousel className="p-2 ">
         <CarouselContent>
           <CarouselItem className="md:basis-1/2">
             <CustomerReviewCard
@@ -185,7 +185,7 @@ function CustomerReviews() {
               reviewAuthor="-Rachael Berg"
             />
           </CarouselItem>
-          <CarouselItem className="md:basis-1/2 ">
+          {/* <CarouselItem className="md:basis-1/2 ">
             <CustomerReviewCard
               review="Andria has absolutely great customer service! She was kind, patient and responded in ample time.  
               She did an amazing job on making a logo for my new business! 
@@ -193,7 +193,7 @@ function CustomerReviews() {
               I will definitely be reaching out soon for more of my graphic design needs:)"
               reviewAuthor="-Cheyenne Frieze"
             />
-          </CarouselItem>
+          </CarouselItem> */}
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
