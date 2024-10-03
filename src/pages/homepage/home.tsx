@@ -45,7 +45,13 @@ function Hero() {
         <p className="text-sm font-normal text-white font-inter max-w-[518px] mb-4">
           Hi! I'm a creative Graphic Designer with a talent for developing
           unique custom artwork. I have an innovative approach to ideas and
-          concept development.
+          concept development. I have experience with designing brands from
+          start to finish. From designing logos, business cards, to social media
+          advertisements I am here to take your business to the next level. I
+          love working in a team as well as independently, I also have
+          experience working with other designers, programmers, and copywriters.
+          I have excellent research, technical, and problem-solving skills as
+          well as detail-oriented and able to learn new concepts quickly.
         </p>
         <div className="flex gap-5 mb-1">
           <Link to={"https://www.instagram.com/andriamooredesigner/"}>
