@@ -8,7 +8,7 @@ import advertisement from "./assets/advertisement.svg";
 import photoManip from "./assets/photoManip.svg";
 import branding from "./assets/branding.svg";
 import { Link } from "react-router-dom";
-import cv from "../../assets/Resume and Coverletter.pdf";
+import cv from "../../assets/resume.pdf";
 import {
   Carousel,
   CarouselContent,
@@ -138,18 +138,19 @@ function Skills() {
 type CustomerReviewCardProps = {
   review: string;
   reviewAuthor: string;
+  className?: string;
 };
 
 function CustomerReviewCard(props: CustomerReviewCardProps) {
   return (
     <div
       id="reviewCard"
-      className={`flex flex-col items-center justify-evenly px-8 py-5 text-center text-white rounded
-       bg-tertiaryTwo font-inter min-h-96 shadow-2xl `}
+      className={`${props.className} flex flex-col items-center justify-evenly px-2 py-5 text-center text-white rounded
+       bg-tertiaryTwo font-inter min-h-72 sm:min-h-60 shadow-2xl lg:max-w-xl `}
     >
       <img src={reviewStars} alt="five stars" className="h-8" />
       <p className="max-w-screen-sm text-sm font-semibold">{props.review}</p>
-      <p className="text-xs font-semibold ">{props.reviewAuthor}</p>
+      <p className="text-xs font-bold ">{props.reviewAuthor}</p>
     </div>
   );
 }
@@ -189,26 +190,25 @@ function CustomerReviews() {
         "I look forward to using her for ALL my graphic design needs!",
       author: "-Rachael Berg",
     },
-    // {
-    //   review:
-    //     "As an Internship manager, I was impressed by her work ethic, marketing " +
-    //     "designs, innovative book designs, logos, and managerial skills. She is a " +
-    //     "hard-working young lady with a great sense of humor and commitment to " +
-    //     "her duty. She was always ready to go the extra mile to provide " +
-    //     "high-quality customer service. ",
-    //   author: "-Aldin Beslagic",
-    // },
+    {
+      review:
+        "Andria was fantastic to work with as a Graphic Designer. " +
+        "She was professional, responsible, and had strong communication skills. " +
+        "As a copywriter, I sent Andria my writing and she magically created the exact pieces I was looking for. " +
+        "I highly recommend her for any of your design dreams!",
+      author: "- Michelle Keeler",
+    },
   ];
 
   return (
-    <section className="pt-8 pb-12 mx-auto ">
-      <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter">
+    <section className="pt-12 pb-12 mx-auto ">
+      <h1 className="mb-4 text-2xl font-extrabold text-center text-white font-inter xl:pr-8">
         My Reviews
       </h1>
-      <Carousel className="w-full pb-2 mx-auto max-w-[350px] md:max-w-screen-lg">
-        <CarouselContent className="-ml-1 ">
+      <Carousel className="w-[350px] min-[420px]:w-[400px] min-[520px]:w-[500px] sm:w-full lg:max-w-screen-xl pb-2 mx-auto pl-1 ">
+        <CarouselContent className="w-full pr-2 -ml-1 min-[1300px]:space-x-3 lg:mx-auto ">
           {reviewArray.map((review, index) => (
-            <CarouselItem key={index} className="pl-1 ">
+            <CarouselItem key={index} className="pl-1 lg:basis-1/2">
               <CustomerReviewCard
                 review={review.review}
                 reviewAuthor={review.author}
@@ -219,23 +219,6 @@ function CustomerReviews() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
-      {/*
-     
-
-
-          <CarouselItem className="basis-full">
-            <CustomerReviewCard
-              review="Andria has absolutely great customer service! She was kind, patient and responded in ample time.  
-              She did an amazing job on making a logo for my new business! 
-              She really impressed me with her ability to send multiple designs in such a quick manner! 
-              I will definitely be reaching out soon for more of my graphic design needs:)"
-              reviewAuthor="-Cheyenne Frieze"
-            />
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel> */}
     </section>
   );
 }
